@@ -58,20 +58,20 @@ graph LR
 
 | ID | Topic Title | Pillar | Dedicated Mind Map & Outlines | Target Channels |
 | :--- | :--- | :--- | :--- | :--- |
-| `TOP-001` | **The $500 Aspirin** | Org Culture | [the-500-dollar-aspirin.md](topics/the-500-dollar-aspirin.md) | Medium, BlueSky, YouTube |
-| `TOP-002` | **What the Heck is "this"?** | Pragmatic Architecture | [what-the-heck-is-this.md](topics/what-the-heck-is-this.md) | Medium, BlueSky, YouTube |
-| `TOP-003` | **Alone, But Not Lonely** | Relationships | [alone-but-not-lonely.md](topics/alone-but-not-lonely.md) | Medium, YouTube, BlueSky |
-| `TOP-004` | **Humility is Not Low Self-Esteem** | Spirituality & Virtue | [humility-is-not-low-self-esteem.md](topics/humility-is-not-low-self-esteem.md) | Medium, BlueSky, YouTube |
-| `TOP-005` | **Cure for Framework Fatigue** | Pragmatic Architecture | [cure-for-framework-fatigue.md](topics/cure-for-framework-fatigue.md) | Medium, BlueSky, YouTube |
-| `TOP-006` | **The Fast Food Fallacy** | Org Culture | [the-fast-food-fallacy.md](topics/the-fast-food-fallacy.md) | Medium, BlueSky, Shorts |
-| `TOP-007` | **Why TDD Actually Matters** | Pragmatic Architecture | [why-tdd-matters.md](topics/why-tdd-matters.md) | Medium, BlueSky, YouTube |
-| `TOP-008` | **The Loyalty Trap** | Org Culture | [the-loyalty-trap.md](topics/the-loyalty-trap.md) | Medium, BlueSky, Shorts |
-| `TOP-009` | **The Charisma Trap & Smartest in Room** | Org Culture | [the-charisma-trap.md](topics/the-charisma-trap.md) | Medium, BlueSky, YouTube |
-| `TOP-010` | **Therapy as Preventive Maintenance** | Relationships | [therapy-preventive-maintenance.md](topics/therapy-preventive-maintenance.md) | Medium, BlueSky, YouTube |
-| `TOP-011` | **Understanding vs. Feeling Love** | Spirituality & Virtue | [understanding-vs-feeling-love.md](topics/understanding-vs-feeling-love.md) | Medium, BlueSky, YouTube |
-| `TOP-012` | **Stop Blindly Following Patterns** | Pragmatic Architecture | [stop-blindly-following-patterns.md](topics/stop-blindly-following-patterns.md) | Medium, BlueSky, YouTube |
-| `TOP-013` | **Why Devs Don't Get Dev Budgets** | Org Culture | [why-devs-dont-get-budgets.md](topics/why-devs-dont-get-budgets.md) | Medium, BlueSky, Shorts |
-| `TOP-014` | **The Myth of Specialization** | Pragmatic Architecture | [the-myth-of-specialization.md](topics/the-myth-of-specialization.md) | Medium, BlueSky, YouTube |
+| `TOP-001` | **The $500 Aspirin** | Org Culture | [the-500-dollar-aspirin.md](topics/documents/the-500-dollar-aspirin.md) | Medium, BlueSky, YouTube |
+| `TOP-002` | **What the Heck is "this"?** | Pragmatic Architecture | [what-the-heck-is-this.md](topics/documents/what-the-heck-is-this.md) | Medium, BlueSky, YouTube |
+| `TOP-003` | **Alone, But Not Lonely** | Relationships | [alone-but-not-lonely.md](topics/documents/alone-but-not-lonely.md) | Medium, YouTube, BlueSky |
+| `TOP-004` | **Humility is Not Low Self-Esteem** | Spirituality & Virtue | [humility-is-not-low-self-esteem.md](topics/documents/humility-is-not-low-self-esteem.md) | Medium, BlueSky, YouTube |
+| `TOP-005` | **Cure for Framework Fatigue** | Pragmatic Architecture | [cure-for-framework-fatigue.md](topics/documents/cure-for-framework-fatigue.md) | Medium, BlueSky, YouTube |
+| `TOP-006` | **The Fast Food Fallacy** | Org Culture | [the-fast-food-fallacy.md](topics/documents/the-fast-food-fallacy.md) | Medium, BlueSky, Shorts |
+| `TOP-007` | **Why TDD Actually Matters** | Pragmatic Architecture | [why-tdd-matters.md](topics/documents/why-tdd-matters.md) | Medium, BlueSky, YouTube |
+| `TOP-008` | **The Loyalty Trap** | Org Culture | [the-loyalty-trap.md](topics/documents/the-loyalty-trap.md) | Medium, BlueSky, Shorts |
+| `TOP-009` | **The Charisma Trap & Smartest in Room** | Org Culture | [the-charisma-trap.md](topics/documents/the-charisma-trap.md) | Medium, BlueSky, YouTube |
+| `TOP-010` | **Therapy as Preventive Maintenance** | Relationships | [therapy-preventive-maintenance.md](topics/documents/therapy-preventive-maintenance.md) | Medium, BlueSky, YouTube |
+| `TOP-011` | **Understanding vs. Feeling Love** | Spirituality & Virtue | [understanding-vs-feeling-love.md](topics/documents/understanding-vs-feeling-love.md) | Medium, BlueSky, YouTube |
+| `TOP-012` | **Stop Blindly Following Patterns** | Pragmatic Architecture | [stop-blindly-following-patterns.md](topics/documents/stop-blindly-following-patterns.md) | Medium, BlueSky, YouTube |
+| `TOP-013` | **Why Devs Don't Get Dev Budgets** | Org Culture | [why-devs-dont-get-budgets.md](topics/documents/why-devs-dont-get-budgets.md) | Medium, BlueSky, Shorts |
+| `TOP-014` | **The Myth of Specialization** | Pragmatic Architecture | [the-myth-of-specialization.md](topics/documents/the-myth-of-specialization.md) | Medium, BlueSky, YouTube |
 
 ---
 
