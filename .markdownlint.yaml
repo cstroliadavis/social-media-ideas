@@ -1,0 +1,25 @@
+# Markdownlint Configuration
+# Matches IDE standards and Markdown Formatting Skill
+
+default: true
+
+# MD013: Line length (Hard wrap at 100 characters, ignore code blocks and tables)
+MD013:
+  line_length: 100
+  heading_line_length: 120
+  code_blocks: false
+  tables: false
+  strict: false
+
+# MD024: Multiple headings with same content (allow siblings/subsections)
+MD024:
+  siblings_only: true
+
+# MD025: Multiple top level headings (allow title in frontmatter + H1 in body)
+MD025: false
+
+# MD033: Inline HTML (allow inline HTML comments/tags)
+MD033: false
+
+# MD041: First line in file should be top-level heading (false for YAML frontmatter)
+MD041: false

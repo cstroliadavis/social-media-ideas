@@ -1,0 +1,26 @@
+{
+  "config": {
+    "MD013": {
+      "line_length": 100,
+      "heading_line_length": 120,
+      "code_blocks": false,
+      "tables": false,
+      "strict": false
+    },
+    "MD024": {
+      "siblings_only": true
+    },
+    "MD025": false,
+    "MD033": false,
+    "MD041": false
+  },
+  "globs": [
+    "**/*.md"
+  ],
+  "ignores": [
+    "node_modules",
+    ".obsidian",
+    ".git",
+    ".agents"
+  ]
+}

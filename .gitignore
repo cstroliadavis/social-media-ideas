@@ -1,5 +1,6 @@
 .DS_Store
 .agents/
+node_modules/
 
 # Obsidian workspace and cache files
 .obsidian/workspace.json

@@ -1,0 +1,31 @@
+{
+  "name": "social-media-ideas",
+  "version": "1.0.0",
+  "description": "Connected knowledge graph, mind maps, and multi-channel publication pipelines for Chris Strolia-Davis.",
+  "scripts": {
+    "lint": "markdownlint-cli2",
+    "lint:fix": "markdownlint-cli2 --fix && prettier --write \"**/*.md\" --ignore-path .gitignore",
+    "format": "prettier --write \"**/*.md\" --ignore-path .gitignore",
+    "postinstall": "simple-git-hooks"
+  },
+  "simple-git-hooks": {
+    "pre-commit": "npx markdownlint-cli2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cstroliadavis/social-media-ideas.git"
+  },
+  "keywords": [
+    "social-media",
+    "knowledge-graph",
+    "obsidian",
+    "mind-maps"
+  ],
+  "author": "Chris Strolia-Davis",
+  "license": "ISC",
+  "devDependencies": {
+    "markdownlint-cli2": "^0.23.2",
+    "prettier": "^3.6.0",
+    "simple-git-hooks": "^2.14.0"
+  }
+}

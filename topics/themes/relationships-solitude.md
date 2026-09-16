@@ -1,6 +1,6 @@
 ---
-theme: "Relationships, Introversion & Solitude"
-category: "Relationships & Personal Growth"
+theme: 'Relationships, Introversion & Solitude'
+category: 'Relationships & Personal Growth'
 aliases:
   - Relationships
   - Solitude
@@ -11,8 +11,8 @@ tags:
   - theme/solitude
   - theme/introversion
 related_themes:
-  - "[[topics/themes/virtue-mindset|Virtue, Mindset & Spirituality]]"
-  - "[[topics/themes/leadership-culture|Org Culture & Leadership]]"
+  - '[[topics/themes/virtue-mindset|Virtue, Mindset & Spirituality]]'
+  - '[[topics/themes/leadership-culture|Org Culture & Leadership]]'
 ---
 
 # Theme: Relationships, Introversion & Solitude
@@ -22,11 +22,11 @@ related_themes:
 ```mermaid
 graph TD
     REL["Relationships & Solitude"]
-    
+
     REL --> SOLITUDE["Solitude vs. Isolation"]
     REL --> MENTAL["Proactive Mental Health & Maintenance"]
     REL --> CONNECTION["Bridging Introversion & Connection"]
-    
+
     SOLITUDE --> D1["[[topics/documents/alone-but-not-lonely|Alone, But Not Lonely]]"]
     MENTAL --> D2["[[topics/documents/therapy-preventive-maintenance|Therapy as Preventive Maintenance]]"]
     CONNECTION --> D3["[[topics/documents/understanding-vs-feeling-love|Understanding vs. Feeling Love]]"]
@@ -36,14 +36,17 @@ graph TD
 
 ## 📚 Related Document Vaults
 
-| Document Title | ID | Pillar | Status | Core Angle / Contribution to Theme |
-| :--- | :--- | :--- | :--- | :--- |
-| [[topics/documents/alone-but-not-lonely\|Alone, But Not Lonely]] | `TOP-003` | Relationships & Solitude | Outlined | Deconstructing the loneliness quadrant and exploring how introverts find deep peace without social isolation. |
-| [[topics/documents/therapy-preventive-maintenance\|Therapy as Preventive Maintenance]] | `TOP-010` | Relationships & Solitude | Outlined | Reframing mental health care from crisis intervention to routine, disciplined psychological calibration. |
-| [[topics/documents/understanding-vs-feeling-love\|Understanding vs. Feeling Love]] | `TOP-011` | Spirituality & Virtue | Outlined | Love as an intentional, disciplined commitment rather than an ephemeral emotional state. |
+| Document Title                                                                         | ID        | Pillar                   | Status   | Core Angle / Contribution to Theme                                                                            |
+| :------------------------------------------------------------------------------------- | :-------- | :----------------------- | :------- | :------------------------------------------------------------------------------------------------------------ |
+| [[topics/documents/alone-but-not-lonely\|Alone, But Not Lonely]]                       | `TOP-003` | Relationships & Solitude | Outlined | Deconstructing the loneliness quadrant and exploring how introverts find deep peace without social isolation. |
+| [[topics/documents/therapy-preventive-maintenance\|Therapy as Preventive Maintenance]] | `TOP-010` | Relationships & Solitude | Outlined | Reframing mental health care from crisis intervention to routine, disciplined psychological calibration.      |
+| [[topics/documents/understanding-vs-feeling-love\|Understanding vs. Feeling Love]]     | `TOP-011` | Spirituality & Virtue    | Outlined | Love as an intentional, disciplined commitment rather than an ephemeral emotional state.                      |
 
 ---
 
 ## 💡 Key Theme Principles
-- **Solitude is Richness; Isolation is Poverty**: Solitude recharges the self; isolation is running away from the world.
-- **Maintenance Over Repair**: Taking care of your emotional and relational health before a crisis hits is the ultimate sign of strength.
+
+- **Solitude is Richness; Isolation is Poverty**: Solitude recharges the self; isolation is running
+  away from the world.
+- **Maintenance Over Repair**: Taking care of your emotional and relational health before a crisis
+  hits is the ultimate sign of strength.

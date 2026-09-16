@@ -1,7 +1,7 @@
 ---
 id: DOC-000
-title: "Document Title"
-pillar: "Pillar 1: Pragmatic Architecture"
+title: 'Document Title'
+pillar: 'Pillar 1: Pragmatic Architecture'
 status: outlined
 created: 2026-09-16
 tags:
@@ -9,9 +9,9 @@ tags:
   - keyword1
   - keyword2
 themes:
-  - "[[topics/themes/architecture|Pragmatic Architecture]]"
+  - '[[topics/themes/architecture|Pragmatic Architecture]]'
 related_docs:
-  - "[[topics/documents/related-doc|Related Document]]"
+  - '[[topics/documents/related-doc|Related Document]]'
 channels:
   - medium
   - substack
@@ -19,11 +19,11 @@ channels:
   - youtube
   - tiktok
 derivatives:
-  medium: "topics/social/medium/doc-name.md"
-  substack: "topics/social/substack/doc-name.md"
-  bluesky: "topics/social/bluesky/doc-name.md"
-  youtube: "topics/social/youtube/doc-name.md"
-  tiktok: "topics/social/tiktok/doc-name.md"
+  medium: 'topics/social/medium/doc-name.md'
+  substack: 'topics/social/substack/doc-name.md'
+  bluesky: 'topics/social/bluesky/doc-name.md'
+  youtube: 'topics/social/youtube/doc-name.md'
+  tiktok: 'topics/social/tiktok/doc-name.md'
 ---
 
 # Document Title
@@ -43,21 +43,29 @@ graph TD
 ---
 
 ## 1. Deep-Dive Knowledge & Context
+
 - **Core Insight**: Comprehensive thesis, foundational principles, and why this matters.
-- **Counter-Perspective (Steel-Manning)**: Legitimate arguments against this viewpoint; context where the opposite is true.
+- **Counter-Perspective (Steel-Manning)**: Legitimate arguments against this viewpoint; context
+  where the opposite is true.
 - **Nuances & Blind Spots**: Boundary conditions, edge cases, and personal experience biases.
 
 ---
 
 ## 2. Evidence, Stories & Reference Vault
-- **Personal Anecdotes & Field Experience**: Detailed career stories, project retrospectives, hard-won lessons.
+
+- **Personal Anecdotes & Field Experience**: Detailed career stories, project retrospectives,
+  hard-won lessons.
 - **Data, Books & Academic/Industry Citations**: External studies, whitepapers, notable figures.
-- **Media & Visual Assets**: Links to diagrams (`![[topics/media/diagrams/example.png]]`), charts, or screenshots.
+- **Media & Visual Assets**: Links to diagrams (`![[topics/media/diagrams/example.png]]`), charts,
+  or screenshots.
 
 ---
 
 ## 3. Multi-Channel Derivative Mapping
-- **Medium / Substack (Long-Form Essay)**: Narrative arc, deep exploration, thesis-antithesis-synthesis.
+
+- **Medium / Substack (Long-Form Essay)**: Narrative arc, deep exploration,
+  thesis-antithesis-synthesis.
 - **BlueSky (Micro & Threads)**: Punchy counter-intuitive insights, key takeaway hooks.
 - **YouTube (Long-Form Video)**: Structured visual presentation, live code/architecture walkthrough.
-- **Short-Form Video (Shorts / TikTok)**: 60-second high-energy hook, 1 metaphor, 1 actionable takeaway.
+- **Short-Form Video (Shorts / TikTok)**: 60-second high-energy hook, 1 metaphor, 1 actionable
+  takeaway.

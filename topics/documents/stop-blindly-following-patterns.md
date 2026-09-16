@@ -1,7 +1,7 @@
 ---
 id: TOP-012
-title: "Stop Blindly Following Patterns: Clean Code, History, and the Hammer Fallacy"
-pillar: "Pillar 1: Pragmatic Architecture"
+title: 'Stop Blindly Following Patterns: Clean Code, History, and the Hammer Fallacy'
+pillar: 'Pillar 1: Pragmatic Architecture'
 status: outlined
 created: 2026-09-16
 tags:
@@ -12,12 +12,12 @@ tags:
   - softwarearchitecture
   - cargocult
 themes:
-  - "[[topics/themes/coding-standards|Coding Standards]]"
-  - "[[topics/themes/architecture|Architecture]]"
-  - "[[topics/themes/javascript|Javascript]]"
-  - "[[topics/themes/typescript|Typescript]]"
+  - '[[topics/themes/coding-standards|Coding Standards]]'
+  - '[[topics/themes/architecture|Architecture]]'
+  - '[[topics/themes/javascript|Javascript]]'
+  - '[[topics/themes/typescript|Typescript]]'
 aliases:
-  - "Stop Blindly Following Patterns: Clean Code, History, and the Hammer Fallacy"
+  - 'Stop Blindly Following Patterns: Clean Code, History, and the Hammer Fallacy'
 ---
 
 # Stop Blindly Following Patterns: Clean Code, History, and the Hammer Fallacy
@@ -62,34 +62,54 @@ graph TD
 ## 1. Core Thesis & Nuance
 
 ### The Core Premise
-Design patterns (GoF, Clean Code, Enterprise Patterns) were formulated to solve specific, painful problems arising in particular programming paradigms and era-specific language constraints (like early C++ and Java). Junior and mid-level developers often fall into cargo-culting—treating patterns as a checklist of "good code" to be applied everywhere. Applying a pattern before you have felt the pain it was invented to heal is like using a sledgehammer on a tiny drywall screw just because you own a sledgehammer.
+
+Design patterns (GoF, Clean Code, Enterprise Patterns) were formulated to solve specific, painful
+problems arising in particular programming paradigms and era-specific language constraints (like
+early C++ and Java). Junior and mid-level developers often fall into cargo-culting—treating patterns
+as a checklist of "good code" to be applied everywhere. Applying a pattern before you have felt the
+pain it was invented to heal is like using a sledgehammer on a tiny drywall screw just because you
+own a sledgehammer.
 
 ### The Counter-Perspective (Steel-Manning Patterns)
-1. **Shared Architectural Taxonomy**: Saying "Let's use an Adapter here" conveys an entire architectural strategy in three words to senior teammates.
-2. **Preventing Reinvented Mistakes**: Proven patterns encode decades of hard-won lessons in decoupling, lifecycle management, and concurrency.
-3. **Enterprise Extensibility**: In large codebases with dozens of teams, patterns establish predictable seams for extension without modifying core code (Open-Closed Principle).
+
+1. **Shared Architectural Taxonomy**: Saying "Let's use an Adapter here" conveys an entire
+   architectural strategy in three words to senior teammates.
+2. **Preventing Reinvented Mistakes**: Proven patterns encode decades of hard-won lessons in
+   decoupling, lifecycle management, and concurrency.
+3. **Enterprise Extensibility**: In large codebases with dozens of teams, patterns establish
+   predictable seams for extension without modifying core code (Open-Closed Principle).
 
 ### Blind Spots & Nuances
-- Distinguishing between *premature abstraction* and *pragmatic future-proofing*.
-- Recognizing when modern language features (first-class functions, closures, pattern matching) make traditional OOP patterns obsolete.
+
+- Distinguishing between _premature abstraction_ and _pragmatic future-proofing_.
+- Recognizing when modern language features (first-class functions, closures, pattern matching) make
+  traditional OOP patterns obsolete.
 
 ---
 
 ## 2. Evidence & Story Bank
 
 ### Personal Anecdotes
-- Reviewing PRs where a 20-line utility function was turned into 8 classes, interfaces, and factories in the name of "Clean Code."
-- Refactoring complex visitor and strategy hierarchies back into simple lookup maps and pure functions.
+
+- Reviewing PRs where a 20-line utility function was turned into 8 classes, interfaces, and
+  factories in the name of "Clean Code."
+- Refactoring complex visitor and strategy hierarchies back into simple lookup maps and pure
+  functions.
 
 ### Metaphors & Analogies
-- **The Heavy Toolkit**: You don't bring a pneumatic jackhammer to hang a family picture on the wall. Tools have mass, and patterns have architectural weight. If the problem is light, keep the tool light.
+
+- **The Heavy Toolkit**: You don't bring a pneumatic jackhammer to hang a family picture on the
+  wall. Tools have mass, and patterns have architectural weight. If the problem is light, keep the
+  tool light.
 
 ---
 
 ## 3. Multi-Channel Repurposing Matrix
 
 ### Medium (Anchor Essay)
-- **Title**: *Stop Blindly Following Patterns: Understanding the History of Clean Code Before You Wreck Your Architecture*
+
+- **Title**: _Stop Blindly Following Patterns: Understanding the History of Clean Code Before You
+  Wreck Your Architecture_
 - **Sections**:
   1. The "I Just Learned Design Patterns" Phase Every Engineer Goes Through.
   2. Why the Gang of Four Wrote What They Wrote (Context Matters).
@@ -97,9 +117,13 @@ Design patterns (GoF, Clean Code, Enterprise Patterns) were formulated to solve 
   4. The Golden Rule: Suffer the Pain First, Then Apply the Pattern.
 
 ### BlueSky (Thread)
-- **Hook**: "Don't use a hammer on a screw just because you know how to swing it. Here is why blindly following 'Clean Code' design patterns is the #1 cause of over-engineered software: 🧵"
+
+- **Hook**: "Don't use a hammer on a screw just because you know how to swing it. Here is why
+  blindly following 'Clean Code' design patterns is the #1 cause of over-engineered software: 🧵"
 
 ---
 
 ## 4. Interactive Discussion Prompt
-> *"What is the most hilariously over-engineered implementation of a design pattern you've ever had to maintain?"*
+
+> _"What is the most hilariously over-engineered implementation of a design pattern you've ever had
+> to maintain?"_

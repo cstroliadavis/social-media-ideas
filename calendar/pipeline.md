@@ -6,7 +6,7 @@ This pipeline tracks topics as they move from initial concept to cross-platform 
 
 ## 📅 Content Stages
 
-```
+```text
 [ 💡 Ideation & Nuance ] ──▶ [ 📝 Medium Anchor Draft ] ──▶ [ 🚀 Multi-Channel Repurposing ] ──▶ [ 💬 Community Loop ]
 ```
 
@@ -14,12 +14,12 @@ This pipeline tracks topics as they move from initial concept to cross-platform 
 
 ## 🚦 Active Production Pipeline
 
-| Release Target | Topic ID & Title | Primary Anchor | Micro-Posts (BlueSky) | Video (Shorts / YT) | Status |
-| :--- | :--- | :--- | :--- | :--- | :--- |
-| **Week 1** | `TOP-001` The $500 Aspirin | Medium Essay | 5-Post Thread | 60s Metaphor Short | Outlined |
-| **Week 2** | `TOP-003` Alone, But Not Lonely | Medium Essay | Discussion Hook | Video Essay | Idea |
-| **Week 3** | `TOP-002` What the Heck is "this"? | Medium Deep Dive | Code Tip Carousel | Code Walkthrough | Idea |
-| **Week 4** | `TOP-004` Humility is Not Low Self-Esteem | Medium Essay | Micro-Reflection | Short-form Voiceover | Idea |
+| Release Target | Topic ID & Title                          | Primary Anchor   | Micro-Posts (BlueSky) | Video (Shorts / YT)  | Status   |
+| :------------- | :---------------------------------------- | :--------------- | :-------------------- | :------------------- | :------- |
+| **Week 1**     | `TOP-001` The $500 Aspirin                | Medium Essay     | 5-Post Thread         | 60s Metaphor Short   | Outlined |
+| **Week 2**     | `TOP-003` Alone, But Not Lonely           | Medium Essay     | Discussion Hook       | Video Essay          | Idea     |
+| **Week 3**     | `TOP-002` What the Heck is "this"?        | Medium Deep Dive | Code Tip Carousel     | Code Walkthrough     | Idea     |
+| **Week 4**     | `TOP-004` Humility is Not Low Self-Esteem | Medium Essay     | Micro-Reflection      | Short-form Voiceover | Idea     |
 
 ---
 
