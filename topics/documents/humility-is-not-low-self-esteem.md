@@ -1,14 +1,23 @@
-# Humility is Not Low Self-Esteem: The Strength of Self-Forgetfulness
-
-## Metadata
-- **ID**: `TOP-004`
-- **Pillar**: Pillar 4: Spirituality & Virtue
-- **Status**: Outlined
-- **Primary Keywords**: #Humility #SelfEsteem #Virtue #Spirituality #EmotionalMaturity #Leadership
-- **Related Topics**: [[topics/the-danger-of-being-the-smartest-in-the-room.md|Danger of Being the Smartest in the Room]], [[topics/understanding-vs-feeling-love.md|Understanding vs Feeling Love]], [[topics/the-charisma-trap.md|The Charisma Trap]]
-- **Target Channels**: Medium (Anchor Essay), BlueSky (Thought Series), YouTube (Short & Long Form)
-
 ---
+id: TOP-004
+title: "Humility is Not Low Self-Esteem: The Strength of Self-Forgetfulness"
+pillar: "Pillar 4: Spirituality & Virtue"
+status: outlined
+created: 2026-09-16
+tags:
+  - humility
+  - selfesteem
+  - virtue
+  - spirituality
+  - emotionalmaturity
+  - leadership
+themes:
+  - "[[topics/themes/virtue-mindset|Virtue Mindset]]"
+aliases:
+  - "Humility is Not Low Self-Esteem: The Strength of Self-Forgetfulness"
+---
+
+# Humility is Not Low Self-Esteem: The Strength of Self-Forgetfulness
 
 ## 🗺️ Topic Mind Map
 

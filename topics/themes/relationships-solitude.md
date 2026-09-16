@@ -1,11 +1,21 @@
-# Theme: Relationships, Introversion & Solitude
-
-## Metadata
-- **Theme Name**: Relationships, Introversion & Solitude
-- **Category**: Relationships & Personal Growth
-- **Related Themes**: [[topics/themes/virtue-mindset.md|Virtue & Mindset]], [[topics/themes/leadership-culture.md|Org Culture & Leadership]]
-
 ---
+theme: "Relationships, Introversion & Solitude"
+category: "Relationships & Personal Growth"
+aliases:
+  - Relationships
+  - Solitude
+  - Introversion
+  - Mental Health
+tags:
+  - theme/relationships
+  - theme/solitude
+  - theme/introversion
+related_themes:
+  - "[[topics/themes/virtue-mindset|Virtue, Mindset & Spirituality]]"
+  - "[[topics/themes/leadership-culture|Org Culture & Leadership]]"
+---
+
+# Theme: Relationships, Introversion & Solitude
 
 ## 🗺️ Theme Mind Map
 
@@ -17,9 +27,9 @@ graph TD
     REL --> MENTAL["Proactive Mental Health & Maintenance"]
     REL --> CONNECTION["Bridging Introversion & Connection"]
     
-    SOLITUDE --> D1["[[topics/documents/alone-but-not-lonely.md|Alone, But Not Lonely]]"]
-    MENTAL --> D2["[[topics/documents/therapy-preventive-maintenance.md|Therapy as Preventive Maintenance]]"]
-    CONNECTION --> D3["[[topics/documents/understanding-vs-feeling-love.md|Understanding vs. Feeling Love]]"]
+    SOLITUDE --> D1["[[topics/documents/alone-but-not-lonely|Alone, But Not Lonely]]"]
+    MENTAL --> D2["[[topics/documents/therapy-preventive-maintenance|Therapy as Preventive Maintenance]]"]
+    CONNECTION --> D3["[[topics/documents/understanding-vs-feeling-love|Understanding vs. Feeling Love]]"]
 ```
 
 ---
@@ -28,9 +38,9 @@ graph TD
 
 | Document Title | ID | Pillar | Status | Core Angle / Contribution to Theme |
 | :--- | :--- | :--- | :--- | :--- |
-| [Alone, But Not Lonely](topics/documents/alone-but-not-lonely.md) | `TOP-003` | Relationships & Solitude | Outlined | Deconstructing the loneliness quadrant and exploring how introverts find deep peace without social isolation. |
-| [Therapy as Preventive Maintenance](topics/documents/therapy-preventive-maintenance.md) | `TOP-010` | Relationships & Solitude | Outlined | Reframing mental health care from crisis intervention to routine, disciplined psychological calibration. |
-| [Understanding vs. Feeling Love](topics/documents/understanding-vs-feeling-love.md) | `TOP-011` | Spirituality & Virtue | Outlined | Love as an intentional, disciplined commitment rather than an ephemeral emotional state. |
+| [[topics/documents/alone-but-not-lonely\|Alone, But Not Lonely]] | `TOP-003` | Relationships & Solitude | Outlined | Deconstructing the loneliness quadrant and exploring how introverts find deep peace without social isolation. |
+| [[topics/documents/therapy-preventive-maintenance\|Therapy as Preventive Maintenance]] | `TOP-010` | Relationships & Solitude | Outlined | Reframing mental health care from crisis intervention to routine, disciplined psychological calibration. |
+| [[topics/documents/understanding-vs-feeling-love\|Understanding vs. Feeling Love]] | `TOP-011` | Spirituality & Virtue | Outlined | Love as an intentional, disciplined commitment rather than an ephemeral emotional state. |
 
 ---
 

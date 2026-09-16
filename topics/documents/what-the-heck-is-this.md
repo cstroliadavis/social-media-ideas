@@ -1,14 +1,25 @@
-# What the Heck is "this"? In JavaScript & TypeScript
-
-## Metadata
-- **ID**: `TOP-002`
-- **Pillar**: Pillar 1: Pragmatic Architecture
-- **Status**: Outlined
-- **Primary Keywords**: #JavaScript #TypeScript #Scope #FunctionalProgramming #CodeQuality #Architecture
-- **Related Topics**: [[topics/cure-for-framework-fatigue.md|Cure for Framework Fatigue]], [[topics/stop-blindly-following-patterns.md|Stop Blindly Following Patterns]]
-- **Target Channels**: Medium (Anchor Essay), BlueSky (Carousel / Code Breakdown), YouTube (Visual Walkthrough)
-
 ---
+id: TOP-002
+title: "What the Heck is "this"? In JavaScript & TypeScript"
+pillar: "Pillar 1: Pragmatic Architecture"
+status: outlined
+created: 2026-09-16
+tags:
+  - javascript
+  - typescript
+  - scope
+  - functionalprogramming
+  - codequality
+  - architecture
+themes:
+  - "[[topics/themes/javascript|Javascript]]"
+  - "[[topics/themes/typescript|Typescript]]"
+  - "[[topics/themes/coding-standards|Coding Standards]]"
+aliases:
+  - "What the Heck is "this"? In JavaScript & TypeScript"
+---
+
+# What the Heck is "this"? In JavaScript & TypeScript
 
 ## 🗺️ Topic Mind Map
 

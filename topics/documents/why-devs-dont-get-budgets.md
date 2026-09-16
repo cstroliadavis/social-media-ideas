@@ -1,14 +1,24 @@
-# Why Don't Dev Teams Get Dev Budgets? The Hidden Cost Center Trap
-
-## Metadata
-- **ID**: `TOP-013`
-- **Pillar**: Pillar 2: Org Culture & Leadership
-- **Status**: Outlined
-- **Primary Keywords**: #DeveloperBudgets #EngineeringEconomics #CostCenter #DevEx #Tooling #TechDebt
-- **Related Topics**: [[topics/the-500-dollar-aspirin.md|The $500 Aspirin]], [[topics/the-loyalty-trap.md|The Loyalty Trap]], [[topics/the-charisma-trap.md|The Charisma Trap]]
-- **Target Channels**: Medium (Anchor Essay), BlueSky (Thread), YouTube/Shorts (Visual Economics)
-
 ---
+id: TOP-013
+title: "Why Don't Dev Teams Get Dev Budgets? The Hidden Cost Center Trap"
+pillar: "Pillar 2: Org Culture & Leadership"
+status: outlined
+created: 2026-09-16
+tags:
+  - developerbudgets
+  - engineeringeconomics
+  - costcenter
+  - devex
+  - tooling
+  - techdebt
+themes:
+  - "[[topics/themes/leadership-culture|Leadership Culture]]"
+  - "[[topics/themes/coding-standards|Coding Standards]]"
+aliases:
+  - "Why Don't Dev Teams Get Dev Budgets? The Hidden Cost Center Trap"
+---
+
+# Why Don't Dev Teams Get Dev Budgets? The Hidden Cost Center Trap
 
 ## 🗺️ Topic Mind Map
 

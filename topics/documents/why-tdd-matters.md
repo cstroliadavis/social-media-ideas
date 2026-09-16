@@ -1,14 +1,25 @@
-# Why TDD Actually Matters: Hitting Bullseyes vs. Drawing Circles Around Darts
-
-## Metadata
-- **ID**: `TOP-007`
-- **Pillar**: Pillar 1: Pragmatic Architecture
-- **Status**: Outlined
-- **Primary Keywords**: #TDD #Testing #SoftwareEngineering #Architecture #Craftsmanship #Quality
-- **Related Topics**: [[topics/stop-blindly-following-patterns.md|Stop Blindly Following Patterns]], [[topics/what-the-heck-is-this.md|What the Heck is "this"?]]
-- **Target Channels**: Medium (Anchor Essay), BlueSky (Visual Code Thread), YouTube (Visual Analogy Demo)
-
 ---
+id: TOP-007
+title: "Why TDD Actually Matters: Hitting Bullseyes vs. Drawing Circles Around Darts"
+pillar: "Pillar 1: Pragmatic Architecture"
+status: outlined
+created: 2026-09-16
+tags:
+  - tdd
+  - testing
+  - softwareengineering
+  - architecture
+  - craftsmanship
+  - quality
+themes:
+  - "[[topics/themes/coding-standards|Coding Standards]]"
+  - "[[topics/themes/typescript|Typescript]]"
+  - "[[topics/themes/architecture|Architecture]]"
+aliases:
+  - "Why TDD Actually Matters: Hitting Bullseyes vs. Drawing Circles Around Darts"
+---
+
+# Why TDD Actually Matters: Hitting Bullseyes vs. Drawing Circles Around Darts
 
 ## 🗺️ Topic Mind Map
 

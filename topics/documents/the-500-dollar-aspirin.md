@@ -1,14 +1,25 @@
-# The $500 Aspirin: The Hidden Costs of Ignoring Your In-House Engineering Team
-
-## Metadata
-- **ID**: `TOP-001`
-- **Pillar**: Pillar 2: Org Culture & Leadership
-- **Status**: Outlined
-- **Primary Keywords**: #ConsultingHype #InHouseEngineering #Leadership #OrgDebt #Trust
-- **Related Topics**: [[topics/why-devs-dont-get-budgets.md|Why Devs Don't Get Dev Budgets]], [[topics/the-loyalty-trap.md|The Loyalty Trap]], [[topics/the-charisma-trap.md|The Charisma Trap]]
-- **Target Channels**: Medium (Anchor), BlueSky (Teaser Thread), YouTube/Shorts (Analogy Breakdown)
-
 ---
+id: TOP-001
+title: "The $500 Aspirin: The Hidden Costs of Ignoring Your In-House Engineering Team"
+pillar: "Pillar 2: Org Culture & Leadership"
+status: outlined
+created: 2026-09-16
+tags:
+  - consultinghype
+  - inhouseengineering
+  - leadership
+  - orgdebt
+  - trust
+themes:
+  - "[[topics/themes/architecture|Architecture]]"
+  - "[[topics/themes/coding-standards|Coding Standards]]"
+  - "[[topics/themes/leadership-culture|Leadership Culture]]"
+  - "[[topics/themes/sql|Sql]]"
+aliases:
+  - "The $500 Aspirin: The Hidden Costs of Ignoring Your In-House Engineering Team"
+---
+
+# The $500 Aspirin: The Hidden Costs of Ignoring Your In-House Engineering Team
 
 ## 1. Core Thesis & Nuance
 

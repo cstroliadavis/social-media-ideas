@@ -1,14 +1,25 @@
-# The Charisma Trap & The Danger of Being the Smartest Person in the Room
-
-## Metadata
-- **ID**: `TOP-009`
-- **Pillar**: Pillar 2: Org Culture & Leadership
-- **Status**: Outlined
-- **Primary Keywords**: #Hiring #Leadership #Humility #Charisma #TeamDynamics #ExecutivePresence #EQ
-- **Related Topics**: [[topics/humility-is-not-low-self-esteem.md|Humility is Not Low Self-Esteem]], [[topics/the-fast-food-fallacy.md|The Fast Food Fallacy]], [[topics/the-loyalty-trap.md|The Loyalty Trap]]
-- **Target Channels**: Medium (Anchor Essay), BlueSky (Insight Thread), YouTube (Career/Leadership Lesson)
-
 ---
+id: TOP-009
+title: "The Charisma Trap & The Danger of Being the Smartest Person in the Room"
+pillar: "Pillar 2: Org Culture & Leadership"
+status: outlined
+created: 2026-09-16
+tags:
+  - hiring
+  - leadership
+  - humility
+  - charisma
+  - teamdynamics
+  - executivepresence
+  - eq
+themes:
+  - "[[topics/themes/leadership-culture|Leadership Culture]]"
+  - "[[topics/themes/virtue-mindset|Virtue Mindset]]"
+aliases:
+  - "The Charisma Trap & The Danger of Being the Smartest Person in the Room"
+---
+
+# The Charisma Trap & The Danger of Being the Smartest Person in the Room
 
 ## 🗺️ Topic Mind Map
 

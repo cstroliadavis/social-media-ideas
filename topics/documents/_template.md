@@ -1,23 +1,34 @@
-# Document Vault Template
-
-## Metadata
-- **ID**: `DOC-000`
-- **Pillar**: [Pillar 1: Pragmatic Architecture | Pillar 2: Org Culture & Leadership | Pillar 3: Relationships & Solitude | Pillar 4: Spirituality & Virtue]
-- **Status**: [Idea | In-Research | Outlined | Drafted | Published]
-- **Primary Themes**: [[topics/themes/theme-name.md|Theme Name]]
-- **Keywords**: #keyword1 #keyword2 #keyword3
-- **Related Documents**: [[topics/documents/related-doc.md|Related Document]]
-- **Target Channels**: Medium, Substack, BlueSky, YouTube, TikTok
-- **Social Derivatives**:
-  - Medium: `topics/social/medium/doc-name.md`
-  - BlueSky: `topics/social/bluesky/doc-name.md`
-  - YouTube: `topics/social/youtube/doc-name.md`
-  - Substack: `topics/social/substack/doc-name.md`
-  - TikTok: `topics/social/tiktok/doc-name.md`
-
+---
+id: DOC-000
+title: "Document Title"
+pillar: "Pillar 1: Pragmatic Architecture"
+status: outlined
+created: 2026-09-16
+tags:
+  - theme/architecture
+  - keyword1
+  - keyword2
+themes:
+  - "[[topics/themes/architecture|Pragmatic Architecture]]"
+related_docs:
+  - "[[topics/documents/related-doc|Related Document]]"
+channels:
+  - medium
+  - substack
+  - bluesky
+  - youtube
+  - tiktok
+derivatives:
+  medium: "topics/social/medium/doc-name.md"
+  substack: "topics/social/substack/doc-name.md"
+  bluesky: "topics/social/bluesky/doc-name.md"
+  youtube: "topics/social/youtube/doc-name.md"
+  tiktok: "topics/social/tiktok/doc-name.md"
 ---
 
-## 🗺️ Topic Mind Map
+# Document Title
+
+## 🗺️ Document Mind Map
 
 ```mermaid
 graph TD
@@ -41,7 +52,7 @@ graph TD
 ## 2. Evidence, Stories & Reference Vault
 - **Personal Anecdotes & Field Experience**: Detailed career stories, project retrospectives, hard-won lessons.
 - **Data, Books & Academic/Industry Citations**: External studies, whitepapers, notable figures.
-- **Media & Visual Assets**: Links to diagrams (`topics/media/diagrams/`), charts, or screenshots.
+- **Media & Visual Assets**: Links to diagrams (`![[topics/media/diagrams/example.png]]`), charts, or screenshots.
 
 ---
 

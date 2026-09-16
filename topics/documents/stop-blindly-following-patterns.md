@@ -1,14 +1,26 @@
-# Stop Blindly Following Patterns: Clean Code, History, and the Hammer Fallacy
-
-## Metadata
-- **ID**: `TOP-012`
-- **Pillar**: Pillar 1: Pragmatic Architecture
-- **Status**: Outlined
-- **Primary Keywords**: #DesignPatterns #CleanCode #Refactoring #Pragmatism #SoftwareArchitecture #CargoCult
-- **Related Topics**: [[topics/what-the-heck-is-this.md|What the Heck is "this"?]], [[topics/cure-for-framework-fatigue.md|Cure for Framework Fatigue]], [[topics/the-500-dollar-aspirin.md|The $500 Aspirin]]
-- **Target Channels**: Medium (Anchor Essay), BlueSky (Visual Code Analogy), YouTube (Video Deep Dive)
-
 ---
+id: TOP-012
+title: "Stop Blindly Following Patterns: Clean Code, History, and the Hammer Fallacy"
+pillar: "Pillar 1: Pragmatic Architecture"
+status: outlined
+created: 2026-09-16
+tags:
+  - designpatterns
+  - cleancode
+  - refactoring
+  - pragmatism
+  - softwarearchitecture
+  - cargocult
+themes:
+  - "[[topics/themes/coding-standards|Coding Standards]]"
+  - "[[topics/themes/architecture|Architecture]]"
+  - "[[topics/themes/javascript|Javascript]]"
+  - "[[topics/themes/typescript|Typescript]]"
+aliases:
+  - "Stop Blindly Following Patterns: Clean Code, History, and the Hammer Fallacy"
+---
+
+# Stop Blindly Following Patterns: Clean Code, History, and the Hammer Fallacy
 
 ## 🗺️ Topic Mind Map
 

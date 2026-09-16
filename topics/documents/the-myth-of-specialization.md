@@ -1,14 +1,26 @@
-# The Myth of Specialization: Jack of All Trades, Master of Adaptability
-
-## Metadata
-- **ID**: `TOP-014`
-- **Pillar**: Pillar 1: Pragmatic Architecture
-- **Status**: Outlined
-- **Primary Keywords**: #Generalist #Specialist #CareerWisdom #SoftwareEngineering #Adaptability #Architecture
-- **Related Topics**: [[topics/the-loyalty-trap.md|The Loyalty Trap]], [[topics/cure-for-framework-fatigue.md|Cure for Framework Fatigue]], [[topics/the-charisma-trap.md|The Charisma Trap]]
-- **Target Channels**: Medium (Anchor Essay), BlueSky (Thread), YouTube (Career/Tech Essay)
-
 ---
+id: TOP-014
+title: "The Myth of Specialization: Jack of All Trades, Master of Adaptability"
+pillar: "Pillar 1: Pragmatic Architecture"
+status: outlined
+created: 2026-09-16
+tags:
+  - generalist
+  - specialist
+  - careerwisdom
+  - softwareengineering
+  - adaptability
+  - architecture
+themes:
+  - "[[topics/themes/architecture|Architecture]]"
+  - "[[topics/themes/sql|Sql]]"
+  - "[[topics/themes/javascript|Javascript]]"
+  - "[[topics/themes/leadership-culture|Leadership Culture]]"
+aliases:
+  - "The Myth of Specialization: Jack of All Trades, Master of Adaptability"
+---
+
+# The Myth of Specialization: Jack of All Trades, Master of Adaptability
 
 ## 🗺️ Topic Mind Map
 

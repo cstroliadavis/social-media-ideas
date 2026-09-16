@@ -1,2 +1,8 @@
 .DS_Store
 .agents/
+
+# Obsidian workspace and cache files
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/cache/
+.obsidian/indexeddb/

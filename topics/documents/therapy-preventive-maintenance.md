@@ -1,14 +1,24 @@
-# Therapy as Preventive Maintenance: Why You Should Go Before You "Need" It
-
-## Metadata
-- **ID**: `TOP-010`
-- **Pillar**: Pillar 3: Relationships & Solitude
-- **Status**: Outlined
-- **Primary Keywords**: #MentalHealth #Therapy #PreventiveCare #EmotionalMaturity #SelfAwareness #Introversion
-- **Related Topics**: [[topics/alone-but-not-lonely.md|Alone, But Not Lonely]], [[topics/understanding-vs-feeling-love.md|Understanding vs Feeling Love]], [[topics/humility-is-not-low-self-esteem.md|Humility is Not Low Self-Esteem]]
-- **Target Channels**: Medium (Anchor Essay), BlueSky (Vulnerable Thread), YouTube (Personal Narrative)
-
 ---
+id: TOP-010
+title: "Therapy as Preventive Maintenance: Why You Should Go Before You "Need" It"
+pillar: "Pillar 3: Relationships & Solitude"
+status: outlined
+created: 2026-09-16
+tags:
+  - mentalhealth
+  - therapy
+  - preventivecare
+  - emotionalmaturity
+  - selfawareness
+  - introversion
+themes:
+  - "[[topics/themes/relationships-solitude|Relationships Solitude]]"
+  - "[[topics/themes/virtue-mindset|Virtue Mindset]]"
+aliases:
+  - "Therapy as Preventive Maintenance: Why You Should Go Before You "Need" It"
+---
+
+# Therapy as Preventive Maintenance: Why You Should Go Before You "Need" It
 
 ## 🗺️ Topic Mind Map
 

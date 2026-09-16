@@ -1,14 +1,24 @@
-# Understanding vs. Feeling Love: Breaking Out of the Intellectual Trap
-
-## Metadata
-- **ID**: `TOP-011`
-- **Pillar**: Pillar 4: Spirituality & Virtue
-- **Status**: Outlined
-- **Primary Keywords**: #Love #Virtue #Spirituality #EmotionalMaturity #Vulnerability #Storytelling
-- **Related Topics**: [[topics/humility-is-not-low-self-esteem.md|Humility is Not Low Self-Esteem]], [[topics/alone-but-not-lonely.md|Alone, But Not Lonely]], [[topics/therapy-preventive-maintenance.md|Therapy as Preventive Maintenance]]
-- **Target Channels**: Medium (Anchor Essay), BlueSky (Reflection), YouTube (Introspective Video Essay)
-
 ---
+id: TOP-011
+title: "Understanding vs. Feeling Love: Breaking Out of the Intellectual Trap"
+pillar: "Pillar 4: Spirituality & Virtue"
+status: outlined
+created: 2026-09-16
+tags:
+  - love
+  - virtue
+  - spirituality
+  - emotionalmaturity
+  - vulnerability
+  - storytelling
+themes:
+  - "[[topics/themes/virtue-mindset|Virtue Mindset]]"
+  - "[[topics/themes/relationships-solitude|Relationships Solitude]]"
+aliases:
+  - "Understanding vs. Feeling Love: Breaking Out of the Intellectual Trap"
+---
+
+# Understanding vs. Feeling Love: Breaking Out of the Intellectual Trap
 
 ## 🗺️ Topic Mind Map
 

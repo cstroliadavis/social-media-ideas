@@ -1,14 +1,24 @@
-# The Fast Food Fallacy: Why the Loudest Voices in Tech Are Often Wrong
-
-## Metadata
-- **ID**: `TOP-006`
-- **Pillar**: Pillar 2: Org Culture & Leadership
-- **Status**: Outlined
-- **Primary Keywords**: #SocialMedia #TechInfluencers #EngineeringReality #SignalVsNoise #AIContent #CriticalThinking
-- **Related Topics**: [[topics/the-charisma-trap.md|The Charisma Trap]], [[topics/cure-for-framework-fatigue.md|Cure for Framework Fatigue]], [[topics/the-500-dollar-aspirin.md|The $500 Aspirin]]
-- **Target Channels**: Medium (Anchor Essay), BlueSky (Contrarian Thread), YouTube/Shorts (Visual Teaser)
-
 ---
+id: TOP-006
+title: "The Fast Food Fallacy: Why the Loudest Voices in Tech Are Often Wrong"
+pillar: "Pillar 2: Org Culture & Leadership"
+status: outlined
+created: 2026-09-16
+tags:
+  - socialmedia
+  - techinfluencers
+  - engineeringreality
+  - signalvsnoise
+  - aicontent
+  - criticalthinking
+themes:
+  - "[[topics/themes/coding-standards|Coding Standards]]"
+  - "[[topics/themes/leadership-culture|Leadership Culture]]"
+aliases:
+  - "The Fast Food Fallacy: Why the Loudest Voices in Tech Are Often Wrong"
+---
+
+# The Fast Food Fallacy: Why the Loudest Voices in Tech Are Often Wrong
 
 ## 🗺️ Topic Mind Map
 

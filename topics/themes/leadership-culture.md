@@ -1,11 +1,22 @@
-# Theme: Org Culture, Leadership & Career Wisdom
-
-## Metadata
-- **Theme Name**: Org Culture, Leadership & Career Wisdom
-- **Category**: Career & Leadership
-- **Related Themes**: [[topics/themes/architecture.md|Pragmatic Architecture]], [[topics/themes/relationships-solitude.md|Relationships & Solitude]], [[topics/themes/virtue-mindset.md|Virtue & Mindset]]
-
 ---
+theme: "Org Culture, Leadership & Career Wisdom"
+category: "Career & Leadership"
+aliases:
+  - Culture
+  - Leadership
+  - Engineering Management
+  - Career
+tags:
+  - theme/leadership
+  - theme/culture
+  - theme/career
+related_themes:
+  - "[[topics/themes/architecture|Pragmatic Architecture]]"
+  - "[[topics/themes/relationships-solitude|Relationships & Solitude]]"
+  - "[[topics/themes/virtue-mindset|Virtue, Mindset & Spirituality]]"
+---
+
+# Theme: Org Culture, Leadership & Career Wisdom
 
 ## 🗺️ Theme Mind Map
 
@@ -17,11 +28,11 @@ graph TD
     LEAD --> TALENT["Hiring, Retention & Charisma Myths"]
     LEAD --> SHORTCUTS["Cost of Speed vs. Sustainable Pace"]
     
-    POLITICS --> D1["[[topics/documents/why-devs-dont-get-budgets.md|Why Devs Don't Get Dev Budgets]]"]
-    POLITICS --> D2["[[topics/documents/the-500-dollar-aspirin.md|The $500 Aspirin]]"]
-    TALENT --> D3["[[topics/documents/the-charisma-trap.md|The Charisma Trap & Smartest in Room]]"]
-    TALENT --> D4["[[topics/documents/the-loyalty-trap.md|The Loyalty Trap: Tenure vs Talent]]"]
-    SHORTCUTS --> D5["[[topics/documents/the-fast-food-fallacy.md|The Fast Food Fallacy]]"]
+    POLITICS --> D1["[[topics/documents/why-devs-dont-get-budgets|Why Devs Don't Get Dev Budgets]]"]
+    POLITICS --> D2["[[topics/documents/the-500-dollar-aspirin|The $500 Aspirin]]"]
+    TALENT --> D3["[[topics/documents/the-charisma-trap|The Charisma Trap & Smartest in Room]]"]
+    TALENT --> D4["[[topics/documents/the-loyalty-trap|The Loyalty Trap: Tenure vs Talent]]"]
+    SHORTCUTS --> D5["[[topics/documents/the-fast-food-fallacy|The Fast Food Fallacy]]"]
 ```
 
 ---
@@ -30,11 +41,11 @@ graph TD
 
 | Document Title | ID | Pillar | Status | Core Angle / Contribution to Theme |
 | :--- | :--- | :--- | :--- | :--- |
-| [Why Devs Don't Get Dev Budgets](topics/documents/why-devs-dont-get-budgets.md) | `TOP-013` | Org Culture | Outlined | Bridging the communication chasm between technical refactoring and executive business value. |
-| [The $500 Aspirin](topics/documents/the-500-dollar-aspirin.md) | `TOP-001` | Org Culture | Outlined | Enterprise consulting lessons on delivering real business relief without bloated bureaucracy. |
-| [The Charisma Trap](topics/documents/the-charisma-trap.md) | `TOP-009` | Org Culture | Outlined | Differentiating magnetic presentation from authentic architectural competence and deep leadership. |
-| [The Loyalty Trap](topics/documents/the-loyalty-trap.md) | `TOP-008` | Org Culture | Outlined | Why tenure is often rewarded over high impact and how engineers get trapped in dead-end loyalty loops. |
-| [The Fast Food Fallacy](topics/documents/the-fast-food-fallacy.md) | `TOP-006` | Org Culture | Outlined | How executive pressure for "instant delivery" creates toxic engineering environments and technical bankruptcy. |
+| [[topics/documents/why-devs-dont-get-budgets\|Why Devs Don't Get Dev Budgets]] | `TOP-013` | Org Culture | Outlined | Bridging the communication chasm between technical refactoring and executive business value. |
+| [[topics/documents/the-500-dollar-aspirin\|The $500 Aspirin]] | `TOP-001` | Org Culture | Outlined | Enterprise consulting lessons on delivering real business relief without bloated bureaucracy. |
+| [[topics/documents/the-charisma-trap\|The Charisma Trap]] | `TOP-009` | Org Culture | Outlined | Differentiating magnetic presentation from authentic architectural competence and deep leadership. |
+| [[topics/documents/the-loyalty-trap\|The Loyalty Trap]] | `TOP-008` | Org Culture | Outlined | Why tenure is often rewarded over high impact and how engineers get trapped in dead-end loyalty loops. |
+| [[topics/documents/the-fast-food-fallacy\|The Fast Food Fallacy]] | `TOP-006` | Org Culture | Outlined | How executive pressure for "instant delivery" creates toxic engineering environments and technical bankruptcy. |
 
 ---
 

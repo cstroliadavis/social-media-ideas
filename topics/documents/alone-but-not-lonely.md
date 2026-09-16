@@ -1,14 +1,24 @@
-# Alone, But Not Lonely: The Spectrum of Solitude and Connection
-
-## Metadata
-- **ID**: `TOP-003`
-- **Pillar**: Pillar 3: Relationships & Solitude
-- **Status**: Outlined
-- **Primary Keywords**: #Solitude #Introversion #Relationships #Loneliness #EmotionalMaturity #Connection
-- **Related Topics**: [[topics/the-introverts-bridge.md|The Introvert's Bridge to Connection]], [[topics/understanding-vs-feeling-love.md|Understanding vs Feeling Love]], [[topics/therapy-preventive-maintenance.md|Therapy as Preventive Maintenance]]
-- **Target Channels**: Medium (Anchor Essay), BlueSky (Reflection / Discussion), YouTube (Talking-Head Video Essay)
-
 ---
+id: TOP-003
+title: "Alone, But Not Lonely: The Spectrum of Solitude and Connection"
+pillar: "Pillar 3: Relationships & Solitude"
+status: outlined
+created: 2026-09-16
+tags:
+  - solitude
+  - introversion
+  - relationships
+  - loneliness
+  - emotionalmaturity
+  - connection
+themes:
+  - "[[topics/themes/relationships-solitude|Relationships Solitude]]"
+  - "[[topics/themes/virtue-mindset|Virtue Mindset]]"
+aliases:
+  - "Alone, But Not Lonely: The Spectrum of Solitude and Connection"
+---
+
+# Alone, But Not Lonely: The Spectrum of Solitude and Connection
 
 ## 🗺️ Topic Mind Map
 

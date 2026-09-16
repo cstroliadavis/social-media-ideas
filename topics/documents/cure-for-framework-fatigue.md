@@ -1,14 +1,25 @@
-# Cure for Framework Fatigue: AI, Platform Standards, and Vanilla Code
-
-## Metadata
-- **ID**: `TOP-005`
-- **Pillar**: Pillar 1: Pragmatic Architecture
-- **Status**: Outlined
-- **Primary Keywords**: #FrameworkFatigue #AI #VanillaJS #WebStandards #Architecture #Maintainability
-- **Related Topics**: [[topics/what-the-heck-is-this.md|What the Heck is "this"?]], [[topics/stop-blindly-following-patterns.md|Stop Blindly Following Patterns]], [[topics/the-fast-food-fallacy.md|The Fast Food Fallacy]]
-- **Target Channels**: Medium (Anchor Essay), BlueSky (Thread / Debate), YouTube (Essay)
-
 ---
+id: TOP-005
+title: "Cure for Framework Fatigue: AI, Platform Standards, and Vanilla Code"
+pillar: "Pillar 1: Pragmatic Architecture"
+status: outlined
+created: 2026-09-16
+tags:
+  - frameworkfatigue
+  - ai
+  - vanillajs
+  - webstandards
+  - architecture
+  - maintainability
+themes:
+  - "[[topics/themes/javascript|Javascript]]"
+  - "[[topics/themes/typescript|Typescript]]"
+  - "[[topics/themes/architecture|Architecture]]"
+aliases:
+  - "Cure for Framework Fatigue: AI, Platform Standards, and Vanilla Code"
+---
+
+# Cure for Framework Fatigue: AI, Platform Standards, and Vanilla Code
 
 ## 🗺️ Topic Mind Map
 

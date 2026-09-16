@@ -1,14 +1,23 @@
-# The Loyalty Trap: Why Tenure Doesn't Equal Talent (or Skill)
-
-## Metadata
-- **ID**: `TOP-008`
-- **Pillar**: Pillar 2: Org Culture & Leadership
-- **Status**: Outlined
-- **Primary Keywords**: #CareerGrowth #Tenure #SoftwareEngineering #Leadership #Meritocracy #CompanyCulture
-- **Related Topics**: [[topics/the-500-dollar-aspirin.md|The $500 Aspirin]], [[topics/the-charisma-trap.md|The Charisma Trap]], [[topics/the-danger-of-being-the-smartest-in-the-room.md|Danger of Being the Smartest in the Room]]
-- **Target Channels**: Medium (Anchor Essay), BlueSky (Thread), YouTube/Shorts (Career Lesson)
-
 ---
+id: TOP-008
+title: "The Loyalty Trap: Why Tenure Doesn't Equal Talent (or Skill)"
+pillar: "Pillar 2: Org Culture & Leadership"
+status: outlined
+created: 2026-09-16
+tags:
+  - careergrowth
+  - tenure
+  - softwareengineering
+  - leadership
+  - meritocracy
+  - companyculture
+themes:
+  - "[[topics/themes/leadership-culture|Leadership Culture]]"
+aliases:
+  - "The Loyalty Trap: Why Tenure Doesn't Equal Talent (or Skill)"
+---
+
+# The Loyalty Trap: Why Tenure Doesn't Equal Talent (or Skill)
 
 ## 🗺️ Topic Mind Map
 
