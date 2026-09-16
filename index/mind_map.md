@@ -26,66 +26,69 @@ graph LR
         BUDGET["Why Devs Don't Get Dev Budgets"]:::p2
         LOYAL["The Loyalty Trap: Tenure vs Talent"]:::p2
         FAST["The Fast Food Fallacy"]:::p2
-        CHARISMA["The Charisma Trap"]:::p2
-        SMART["Danger of Being Smartest in Room"]:::p2
+        CHARISMA["The Charisma Trap & Smartest in Room"]:::p2
     end
 
     subgraph P3["Pillar 3: Relationships & Solitude"]
         ALONE["Alone, But Not Lonely"]:::p3
-        INTRO["The Introvert's Bridge to Connection"]:::p3
         THERAPY["Therapy as Preventive Maintenance"]:::p3
     end
 
     subgraph P4["Pillar 4: Spirituality & Virtue"]
         HUMILITY["Humility is Not Low Self-Esteem"]:::p4
         LOVE["Understanding vs. Feeling Love"]:::p4
-        STORY["Virtue Through Storytelling"]:::p4
     end
 
     %% Cross-Pillar Linkages
-    SMART -.-> HUMILITY
+    CHARISMA -.-> HUMILITY
     CHARISMA -.-> FAST
     ASPIRIN -.-> BUDGET
     CLEAN -.-> ASPIRIN
     FAST -.-> FRAME
-    ALONE -.-> INTRO
-    INTRO -.-> STORY
+    ALONE -.-> LOVE
     THERAPY -.-> HUMILITY
-    SPEC -.-> SMART
+    SPEC -.-> CHARISMA
+    TDD -.-> CLEAN
+    FRAME -.-> THIS
 ```
 
 ---
 
-## 📂 Topic Registry
+## 📂 Topic Registry & Dedicated Mind Maps
 
-| ID | Topic Title | Pillar | Status | Channels |
+| ID | Topic Title | Pillar | Dedicated Mind Map & Outlines | Target Channels |
 | :--- | :--- | :--- | :--- | :--- |
-| `TOP-001` | [The $500 Aspirin](topics/the-500-dollar-aspirin.md) | Org Culture | Idea | Medium, BlueSky, YouTube |
-| `TOP-002` | [What the Heck is "this"?](topics/what-the-heck-is-this.md) | Pragmatic Architecture | Idea | Medium, BlueSky |
-| `TOP-003` | [Alone, But Not Lonely](topics/alone-but-not-lonely.md) | Relationships | Idea | Medium, YouTube, BlueSky |
-| `TOP-004` | [Humility is Not Low Self-Esteem](topics/humility-is-not-low-self-esteem.md) | Spirituality & Virtue | Idea | Medium, BlueSky, Video |
-| `TOP-005` | [Cure for Framework Fatigue](topics/cure-for-framework-fatigue.md) | Pragmatic Architecture | Idea | Medium, BlueSky |
-| `TOP-006` | [The Fast Food Fallacy](topics/the-fast-food-fallacy.md) | Org Culture | Idea | Medium, BlueSky, Short-form |
-| `TOP-007` | [Why TDD Actually Matters](topics/why-tdd-matters.md) | Pragmatic Architecture | Idea | Medium, BlueSky, Video |
-| `TOP-008` | [The Loyalty Trap](topics/the-loyalty-trap.md) | Org Culture | Idea | Medium, BlueSky |
-| `TOP-009` | [The Charisma Trap & Smartest in Room](topics/the-charisma-trap.md) | Org Culture | Idea | Medium, BlueSky |
-| `TOP-010` | [Therapy as Preventive Maintenance](topics/therapy-preventive-maintenance.md) | Relationships | Idea | Medium, BlueSky |
-| `TOP-011` | [Understanding vs Feeling Love](topics/understanding-vs-feeling-love.md) | Spirituality & Virtue | Idea | Medium, BlueSky |
-| `TOP-012` | [Stop Blindly Following Patterns](topics/stop-blindly-following-patterns.md) | Pragmatic Architecture | Idea | Medium, BlueSky |
-| `TOP-013` | [Why Dev Teams Don't Get Budgets](topics/why-devs-dont-get-budgets.md) | Org Culture | Idea | Medium, BlueSky |
+| `TOP-001` | **The $500 Aspirin** | Org Culture | [the-500-dollar-aspirin.md](topics/the-500-dollar-aspirin.md) | Medium, BlueSky, YouTube |
+| `TOP-002` | **What the Heck is "this"?** | Pragmatic Architecture | [what-the-heck-is-this.md](topics/what-the-heck-is-this.md) | Medium, BlueSky, YouTube |
+| `TOP-003` | **Alone, But Not Lonely** | Relationships | [alone-but-not-lonely.md](topics/alone-but-not-lonely.md) | Medium, YouTube, BlueSky |
+| `TOP-004` | **Humility is Not Low Self-Esteem** | Spirituality & Virtue | [humility-is-not-low-self-esteem.md](topics/humility-is-not-low-self-esteem.md) | Medium, BlueSky, YouTube |
+| `TOP-005` | **Cure for Framework Fatigue** | Pragmatic Architecture | [cure-for-framework-fatigue.md](topics/cure-for-framework-fatigue.md) | Medium, BlueSky, YouTube |
+| `TOP-006` | **The Fast Food Fallacy** | Org Culture | [the-fast-food-fallacy.md](topics/the-fast-food-fallacy.md) | Medium, BlueSky, Shorts |
+| `TOP-007` | **Why TDD Actually Matters** | Pragmatic Architecture | [why-tdd-matters.md](topics/why-tdd-matters.md) | Medium, BlueSky, YouTube |
+| `TOP-008` | **The Loyalty Trap** | Org Culture | [the-loyalty-trap.md](topics/the-loyalty-trap.md) | Medium, BlueSky, Shorts |
+| `TOP-009` | **The Charisma Trap & Smartest in Room** | Org Culture | [the-charisma-trap.md](topics/the-charisma-trap.md) | Medium, BlueSky, YouTube |
+| `TOP-010` | **Therapy as Preventive Maintenance** | Relationships | [therapy-preventive-maintenance.md](topics/therapy-preventive-maintenance.md) | Medium, BlueSky, YouTube |
+| `TOP-011` | **Understanding vs. Feeling Love** | Spirituality & Virtue | [understanding-vs-feeling-love.md](topics/understanding-vs-feeling-love.md) | Medium, BlueSky, YouTube |
+| `TOP-012` | **Stop Blindly Following Patterns** | Pragmatic Architecture | [stop-blindly-following-patterns.md](topics/stop-blindly-following-patterns.md) | Medium, BlueSky, YouTube |
+| `TOP-013` | **Why Devs Don't Get Dev Budgets** | Org Culture | [why-devs-dont-get-budgets.md](topics/why-devs-dont-get-budgets.md) | Medium, BlueSky, Shorts |
+| `TOP-014` | **The Myth of Specialization** | Pragmatic Architecture | [the-myth-of-specialization.md](topics/the-myth-of-specialization.md) | Medium, BlueSky, YouTube |
 
 ---
 
 ## 🏷️ Keyword & Tag Index
 
-- `#Architecture`: `TOP-002`, `TOP-005`, `TOP-012`
-- `#CareerWisdom`: `TOP-001`, `TOP-006`, `TOP-008`, `TOP-009`
+- `#Adaptability`: `TOP-014`
+- `#AI`: `TOP-005`, `TOP-006`, `TOP-014`
+- `#Architecture`: `TOP-002`, `TOP-005`, `TOP-007`, `TOP-012`, `TOP-014`
+- `#CareerWisdom`: `TOP-001`, `TOP-006`, `TOP-008`, `TOP-009`, `TOP-014`
 - `#Consulting`: `TOP-001`, `TOP-013`
-- `#EmotionalHealth`: `TOP-003`, `TOP-010`, `TOP-011`
+- `#EmotionalMaturity`: `TOP-003`, `TOP-004`, `TOP-010`, `TOP-011`
 - `#EngineeringLeadership`: `TOP-001`, `TOP-008`, `TOP-009`, `TOP-013`
-- `#Introversion`: `TOP-003`
+- `#Introversion`: `TOP-003`, `TOP-009`, `TOP-010`
 - `#JavaScript`: `TOP-002`, `TOP-005`
-- `#Mentorship`: `TOP-004`, `TOP-009`, `TOP-012`
-- `#Pragmatism`: `TOP-002`, `TOP-005`, `TOP-007`, `TOP-012`
+- `#MentalHealth`: `TOP-003`, `TOP-010`
+- `#Pragmatism`: `TOP-002`, `TOP-005`, `TOP-007`, `TOP-012`, `TOP-014`
+- `#Relationships`: `TOP-003`, `TOP-010`, `TOP-011`
 - `#Spirituality`: `TOP-004`, `TOP-011`
+- `#Storytelling`: `TOP-004`, `TOP-011`
 - `#TDD`: `TOP-007`
