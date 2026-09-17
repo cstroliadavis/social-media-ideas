@@ -31,8 +31,8 @@ tags:
 
 **[Visual: Chris on camera. Cut to split-screen graphic of overflowing grocery cart vs. plated meal]**
 
-"In my 25 years building software for the web, I've watched us make the exact same compromise over
-and over again.
+"In my 25 years building software for the web, I've seen us make the exact same compromise over and
+over again.
 
 Every time we build an application, we pull in massive frameworks, bloated component libraries, and
 hundreds of megabytes of `node_modules`—all to write a handful of simple UI interactions.
@@ -44,8 +44,8 @@ pans you aren't even using.
 
 We accepted that compromise because human typing and cognitive bandwidth were our bottlenecks. But
 with AI coding agents, that economic model is broken. Today, we're exploring **The
-Mixture-of-Skills Architecture**—and why the future of web engineering belongs to design-time AI
-skills instead of runtime frameworks."
+Mixture-of-Skills Architecture**—and why web engineering is moving toward design-time AI skills
+instead of runtime frameworks."
 
 ---
 
@@ -53,12 +53,12 @@ skills instead of runtime frameworks."
 
 **[Visual: Screen recording showing an AI IDE loading a skill file and generating clean native Web Components]**
 
-"Here is the core architectural insight: **AI inverts where framework complexity belongs.**
+"Here is the core architectural insight: AI moves framework complexity upstream.
 
 Historically, frameworks had to run in the user's browser or at build time because human teams
 couldn't maintain millions of lines of bespoke boilerplate.
 
-With AI agents, that intelligence moves upstream to **design time**.
+With AI agents, that intelligence moves to **design time**.
 
 Instead of your production app importing a heavy third-party modal or state manager, your AI agent
 reads a markdown skill package—what we call an **AI Development Framework (ADF)**. The agent

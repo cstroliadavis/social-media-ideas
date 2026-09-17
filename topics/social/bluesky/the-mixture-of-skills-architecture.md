@@ -17,11 +17,11 @@ tags:
 
 ## Post 1 (The Hook & Image)
 
-Frameworks were created to save human developers from typing boilerplate.
+We built frameworks because typing boilerplate and managing DOM quirks by hand took too long.
 
-In an AI world, framework lock-in is a liability, not an asset.
+With AI coding agents, framework lock-in has become a liability rather than a productivity boost.
 
-Here is why the future belongs to Mixture-of-Skills (MoS) registries instead of monolithic npm
+Here is why modular skill registries (Mixture-of-Skills) make more sense than runtime framework
 dependencies 🧵👇
 
 [Image: manual-vs-automated-software-dev.jpeg]
@@ -32,56 +32,58 @@ dependencies 🧵👇
 
 Think about how we build web apps today.
 
-Want a simple feature? You import a 500MB `node_modules` package.
+Want one simple UI feature? You end up importing hundreds of megabytes of `node_modules`.
 
-It's like buying a 3lb family pack of steak, a 20lb bag of rice, and stacks of canned beans just to
-make a quick dinner. You pay for the bulk, clutter your pantry, and keep 5 burners roaring for pans
-you never touch.
+It feels like buying a 3lb steak pack, a 20lb bag of rice, and a dozen cans of beans just to cook
+dinner for one. You pay for the bulk packaging, clutter your pantry, and keep extra burners roaring
+for pans you never touch.
 
 ---
 
 ## Post 3 (The Design-Time Inversion)
 
-AI completely flips where complexity belongs.
+AI shifts where framework complexity lives.
 
-Historically, frameworks lived at *runtime* because humans couldn't maintain raw boilerplate.
+Historically, frameworks ran in the browser because human teams needed a runtime shim to avoid
+writing repetitive boilerplate.
 
-With AI agents, intelligence moves upstream to *design time*.
+With AI agents, that intelligence moves upstream to design time.
 
-The agent references specialized markdown skill packages (ADFs) and outputs lean, zero-dependency
-native code that runs directly on web standards.
+The agent references a markdown skill package (ADF) and writes lean, zero-dependency native code
+directly on open web standards.
 
 ---
 
 ## Post 4 (The Assembly Precedent)
 
-Whenever I mention moving away from heavy runtime frameworks, folks worry: "Isn't vanilla code
-unmaintainable?"
+When I mention moving away from heavy runtime frameworks, folks often ask: "Isn't vanilla code hard
+to maintain?"
 
-In the 1960s, programmers said the same thing about C compilers: "Hand-tuned assembly is better."
+In the 1960s, systems programmers said the same thing about C compilers: "Hand-tuned assembly is
+always better."
 
-Higher abstractions always win. AI agents are our optimizing compilers; skills are our
-architectural rules.
+Compilers eventually won because higher abstractions save developer time. AI agents act as our
+optimizing compilers; skills provide our architectural constraints.
 
 ---
 
 ## Post 5 (The 3-Tier Hierarchy)
 
-How do you scale this safely across a team?
+How do you govern this across an engineering team?
 
-1. **Canonical ADFs**: Open public standards (W3C, A11y, OWASP).
-2. **Org Methodologies**: Internal design tokens, auth flows, and logging.
-3. **App Blueprints**: Local schemas and domain logic.
+1. **Canonical ADFs**: Open standards (W3C, A11y, OWASP).
+2. **Org Methodologies**: Internal design tokens, auth flows, and logging conventions.
+3. **App Blueprints**: Feature-specific schemas and local contracts.
 
-Deterministic rules enforced by strict linters—zero hallucinated spaghetti.
+Deterministic rules checked by local linters—no guessing or unvetted patterns.
 
 ---
 
 ## Post 6 (The Takeaway & Call to Action)
 
-Stop letting framework upgrade treadmills eat 6 months of your roadmap.
+Framework upgrade cycles shouldn't eat six months of an engineering roadmap.
 
-Start small: pick one isolated utility on Monday morning, define the skill rules, and generate a
-zero-dependency native Web Component.
+Try an isolated experiment on Monday: pick one utility component, define a skill rule, and generate
+a zero-dependency native Web Component.
 
-Full deep dive on Medium: [Link to article]
+Full essay on Medium: [Link to article]
