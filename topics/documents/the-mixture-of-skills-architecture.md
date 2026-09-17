@@ -59,6 +59,7 @@ graph TD
     subgraph ORCHESTRATION["🧠 MoS Orchestrator & Context Router"]
         ROUTER["Intent Analysis & Task Decomposition"]
         MCP["MCP / Tool & Telemetry Gateway"]
+        REACH["Context-Aware AST Reachability\n(Vulnerability Filtering)"]
     end
 
     subgraph SKILLS["📦 Specialized AI Development Frameworks (ADFs)"]
@@ -66,22 +67,28 @@ graph TD
         SKILL_UI["🎨 UI & Accessibility Skills\n(Web Components, CSS Tokens)"]
         SKILL_PERF["⚡ Performance & Data Skills\n(SQLite WASM, Cache Invalidation)"]
         SKILL_SEO["🔍 SEO & Semantic HTML Skills\n(Structured Data, Meta, A11y)"]
+        SKILL_BUILD["🛠️ Bespoke Build Skills\n(Native CSS Minification & Bundling)"]
     end
 
-    subgraph OUTPUT["🚀 Pure Zero-Dependency Target Output"]
-        CODE["Bespoke Native Code\n(Standard Web APIs / No Runtime Bloat)"]
+    subgraph OUTPUT["🚀 Design-Time Zero-Dependency Output"]
+        CODE["Deterministic Native Code\n(Standard Web APIs / Committed to Git)"]
+        CI["Deterministic CI/CD Pipeline\n(Zero Probabilistic Jitter in Release)"]
     end
 
     USER --> ROUTER
     ROUTER --> MCP
+    ROUTER --> REACH
     ROUTER --> SKILL_SEC
     ROUTER --> SKILL_UI
     ROUTER --> SKILL_PERF
     ROUTER --> SKILL_SEO
+    ROUTER --> SKILL_BUILD
     SKILL_SEC --> CODE
     SKILL_UI --> CODE
     SKILL_PERF --> CODE
     SKILL_SEO --> CODE
+    SKILL_BUILD --> CODE
+    CODE --> CI
 ```
 
 ---
@@ -98,48 +105,94 @@ Frameworks and heavy 3rd-party libraries were created to give human developers s
 state machines, routing harnesses, and UI components. But they came with a massive tax:
 
 1. **One-Size-Fits-All Bloat**: Libraries try to serve every possible edge case, forcing apps to
-   carry megabytes of unused runtime code.
+   carry megabytes of unused runtime code (with Chrome coverage tabs frequently showing 80%+ unused
+   code).
 2. **Brittle Integration Costs**: The hardest engineering work often isn't writing business logic—it
    is forcing three different frameworks with incompatible lifecycles to play nice.
-3. **Rigid Lock-In**: Upgrading or swapping a core framework demands months of rewrites and
-   contagious adapter layers.
+3. **Rigid Lock-In & Upstream Volatility**: Upgrading or swapping a core framework demands months of
+   rewrites, breaking changes, and contagious adapter layers.
 
 With modern AI agents, the bottleneck is inverted. The AI writes code at machine speed. By feeding
 the agent specialized **AI Development Frameworks (ADFs)**—structured domain rules, security
-blueprints, and performance patterns—the agent can generate tailored, native code that has zero
-runtime dependency footprint.
+blueprints, and performance patterns—the agent generates tailored, native code that has zero runtime
+dependency footprint.
+
+---
+
+### Key Architectural Inversions Surfaced in Technical Grilling
+
+#### 1. Design-Time Generation vs. Build-Time Magic (CI/CD Determinism)
+
+- **The Misconception**: Opponents assume an AI generates code on every CI build, introducing
+  probabilistic jitter into production releases.
+- **The Reality**: AI acts strictly at **design and authoring time**. The code emitted is static,
+  auditable, deterministic TypeScript/JavaScript committed directly to version control. CI/CD
+  remains completely boring, repeatable, and deterministic.
+
+#### 2. The Upgrade Inversion: Decoupling Intelligence from Production Code
+
+- **Traditional NPM Upgrades**: Bumping a version is an all-or-nothing gamble that touches
+  production code immediately, demanding extensive regression testing and risking breaking changes.
+- **MoS Skill Upgrades**: Updating an ADF skill package modifies **zero lines of production code**.
+  It simply upgrades the intelligence of the assistant auditing the repository. The assistant
+  identifies improvements as opt-in code suggestions rather than forced breaking changes.
+
+#### 3. The Engineer's Evolving Role: From Boilerplate Typist to Editor-in-Chief
+
+- Software engineering shifts from low-level manual plumbing to **high-level verification, prompt
+  architecture, and skill curation**.
+- When an engineer identifies a subtle bug or anti-pattern during code review, they don't just patch
+  the line—they codify the fix into an updated local or team skill so the entire organization never
+  makes that mistake again.
+
+#### 4. The Historical Precedent: The Assembly to 3GL Transition
+
+- When programming shifted from Assembly to third-generation languages (C, Fortran), critics argued
+  that developers would lose hardware understanding and create bloated binaries.
+- Moving from rigid monolithic frameworks to AI-directed web standards is the next natural step in
+  the ladder of abstraction: human intent dictates the architecture, while machines handle the
+  syntactic scaffolding.
 
 ---
 
 ### Counter-Perspective & Intellectual Steel-Manning
 
-#### The Primary Objection
+#### The Primary Objections & Answers
 
-> _"If AI writes bespoke, framework-free code for every project, won't every codebase become a
-> snowflake that is impossible for human teams to maintain?"_
-
-#### The Steel-Manned Defense
-
-1. **Standard Web APIs as the Universal Shared Vocabulary**: Framework APIs (e.g. React hooks,
-   Angular decorators) churn every few years. Native standards (HTML5, CSS Custom Properties, Fetch,
-   Web Components, ECMAScript) are timeless, durable, and universally documented.
-2. **Skill Blueprints Act as Unified Guardrails**: The shared consistency comes from the **Skill
-   Registry** itself. If every engineer on the team uses the same curated Security, UI, and Linting
-   skills, the generated code adheres to identical patterns without paying runtime tax.
-3. **Elimination of the Framework Tax**: Teams gain unprecedented agility. When business
-   requirements pivot, the AI regenerates the native implementation rather than fighting an
-   inflexible 3rd-party library.
+1. **The Snowflake Codebase Fear**:
+   - _Objection_: _"Won't bespoke code make every codebase an idiosyncratic snowflake?"_
+   - _Defense_: Standard Web APIs (Web Components, CSS Custom Properties, Fetch, ECMAScript) provide
+     a timeless, universal vocabulary that outlasts proprietary framework APIs that change every 18
+     months. Shared Skill Registries ensure team-wide consistency.
+2. **The "Who Tests the Tests?" Paradox**:
+   - _Objection_: _"If AI writes the code and the tests, won't it duplicate its own blind spots?"_
+   - _Defense_: Testing shifts to strict **Test-Driven Development (TDD)** and **Fitness Functions**
+     where human engineers write or strictly review assertions first, forcing the agent into
+     adversarial, organic code generation until tests pass under strict constraint validation.
+3. **Context-Aware Reachability vs. Dumb CVE Scanning**:
+   - _Defense_: Instead of waking engineers up for CVEs in dormant code, an MoS orchestrator
+     evaluates actual AST call-graph reachability, notifying developers only when an active
+     execution path is at risk.
 
 ---
 
-### Concession Boundaries: When Libraries Still Make Sense
+### Concession Boundaries & Unresolved Frontiers
 
-Pre-built runtime packages remain essential for:
+#### When Pre-Built Packages Still Make Complete Sense
 
-- **Cryptographic Primitives & Low-Level Math**: Where human implementation errors introduce fatal
-  security vulnerabilities (e.g. `libsodium`, constant-time comparison).
-- **Binary Parsers & WASM Kernels**: Highly tuned compiled engines (e.g. SQLite WASM, video codecs).
-- **Official Enterprise SDKs**: Direct vendor integration endpoints (e.g. Stripe, AWS SDKs).
+- **Cryptographic Primitives & Constant-Time Math**: (e.g., `libsodium`) where manual generation
+  risks catastrophic security flaws.
+- **Compiled WASM Engines & Binary Parsers**: (e.g., SQLite WASM, video transcoders).
+- **Official Enterprise SDKs**: Direct vendor integration endpoints (e.g., AWS SDK, Stripe SDK).
+
+#### The Unresolved Frontiers (The Honest Edge)
+
+- **The Model Portability Dilemma**: A skill prompt optimized for Claude 3.7 might behave
+  differently in Gemini 3.7 or GPT-5. Frameworks in the AI era may require model-specific adapter
+  tuning.
+- **The Post-Labor Open-Source Economy**: As AI decouples code generation from doc-site traffic and
+  sponsorships (e.g., Tailwind layoffs), new economic models for compensating skill creators must
+  emerge.
 
 ---
 
@@ -169,7 +222,7 @@ Pre-built runtime packages remain essential for:
 ### 🎙️ Deep-Dive Mock Interview Transcript
 
 - **Full Discussion**: [[topics/interviews/the-mixture-of-skills-architecture|The Pragmatic
-        Architect Podcast: The Mixture-of-Skills Architecture]]
+    Architect Podcast: The Mixture-of-Skills Architecture]]
 - **Key Debates Covered**:
   - _Design-Time vs. Build-Time Generation_ (Why CI/CD remains 100% deterministic).
   - _The Assembly Language Parallel_ (Historical transitions from low-level control to higher
@@ -185,13 +238,25 @@ Pre-built runtime packages remain essential for:
 
 ### The 4-Tier Mixture-of-Skills Stack
 
-1. **Tier 1: Intent Orchestrator**: Analyzes user prompts and determines required domain
-   competencies.
+1. **Tier 1: Intent Orchestrator**: Analyzes user prompts, assesses required domain competencies,
+   and routes requests.
 2. **Tier 2: ADF / Skill Registry**: Modular Markdown/JSON skill packages (e.g. `security-audit`,
-   `semantic-html`, `sqlite-wasm-cache`, `css-design-system`).
-3. **Tier 3: Context & MCP Gateway**: Live tooling, linters, test harnesses, and telemetry.
+   `semantic-html`, `sqlite-wasm-cache`, `css-design-system`, `bespoke-build-minifier`).
+3. **Tier 3: Context & MCP Gateway**: Live tooling, AST reachability analysis, linters, test
+   harnesses, and telemetry.
 4. **Tier 4: Zero-Dependency Output**: Clean, native TypeScript/JavaScript running on Node, Bun,
    Deno, or browser runtimes without external npm runtime bloat.
+
+### The Monday Morning Experiment (The Isolated Utility Spike)
+
+> Pick one non-critical, isolated piece of UI scheduled for your next sprint—such as an accessible
+> modal or a custom dropdown—that your team would normally install an external npm package for.
+>
+> Instead of running `npm install`, write a small Markdown skill defining your company’s
+> accessibility rules, token naming, and lifecycle cleanup. Have the agent generate a
+> zero-dependency Web Component, wrap it so it mounts cleanly into your existing framework tree, and
+> commit it. Measure the bundle difference, run the tests, and see if the team actually finds the
+> native code easier or harder to review.
 
 ---
 
@@ -205,10 +270,11 @@ Pre-built runtime packages remain essential for:
 - **Structure**:
   1. The 50-Pound Swiss Army Knife (The Hidden Tax of Frameworks).
   2. Why Frameworks Were Built (Human Ergonomics vs. Runtime Cost).
-  3. The Inversion: How AI Changes the Rapid Application Development Equation.
-  4. The Architecture of a Mixture-of-Skills (MoS) System.
-  5. The Snowflake Counter-Argument: Why Web Standards Win Long-Term.
-  6. The 4-Tier Blueprint for Modern Engineering Teams.
+  3. The Inversion: Design-Time Generation & Decoupling Upgrades from Production Code.
+  4. The Assembly Precedent: Why Higher Abstractions Always Win.
+  5. The Architecture of a Mixture-of-Skills (MoS) System.
+  6. The Snowflake Counter-Argument: Why Web Standards Win Long-Term.
+  7. The Monday Morning Experiment (The Isolated Utility Spike).
 
 ### 🧵 BlueSky & LinkedIn (Micro-Post & Thread)
 
@@ -218,8 +284,9 @@ Pre-built runtime packages remain essential for:
 - **Key Slides/Cards**:
   1. The Swiss Army Knife vs. The Tool Belt diagram.
   2. The 3 Costs of Framework Lock-In.
-  3. The 4-Tier MoS Architecture.
-  4. Concessions: When libraries still matter (Crypto/WASM).
+  3. Design-Time vs. Build-Time Generation.
+  4. The 4-Tier MoS Architecture.
+  5. The Monday Morning Experiment.
 
 ### 🎥 YouTube (Long-Form & Deep-Dive Script)
 
