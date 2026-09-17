@@ -169,7 +169,7 @@ Pre-built runtime packages remain essential for:
 ### 🎙️ Deep-Dive Mock Interview Transcript
 
 - **Full Discussion**: [[topics/interviews/the-mixture-of-skills-architecture|The Pragmatic
-    Architect Podcast: The Mixture-of-Skills Architecture]]
+        Architect Podcast: The Mixture-of-Skills Architecture]]
 - **Key Debates Covered**:
   - _Design-Time vs. Build-Time Generation_ (Why CI/CD remains 100% deterministic).
   - _The Assembly Language Parallel_ (Historical transitions from low-level control to higher
