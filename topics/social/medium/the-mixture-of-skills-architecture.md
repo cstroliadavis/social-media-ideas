@@ -62,16 +62,16 @@ That is your `node_modules` folder.
 ┌─────────────────────────────────────────────────────────────┐
 │                    THE FRAMEWORK TAX                        │
 ├───────────────────────────────┬─────────────────────────────┤
-│ 🛒 Bulk Packaging             │ 500MB+ node_modules for     │
+│ Bulk Packaging                │ 500MB+ node_modules for     │
 │                               │ a 5KB feature               │
 ├───────────────────────────────┼─────────────────────────────┤
-│ 📦 Upstream Lock-In           │ Major version migration     │
+│ Upstream Lock-In              │ Major version migration     │
 │                               │ nightmares (React/Angular)  │
 ├───────────────────────────────┼─────────────────────────────┤
-│ 🚨 Phantom Security Alerts    │ Hundreds of CVEs in dead,   │
+│ Phantom Security Alerts       │ Hundreds of CVEs in dead,   │
 │                               │ uncalled transitive code    │
 ├───────────────────────────────┼─────────────────────────────┤
-│ ⏳ Runtime Hydration Penalties │ Sluggish Time-to-Interactive│
+│ Runtime Hydration Penalties   │ Sluggish Time-to-Interactive│
 │                               │ on mobile devices           │
 └───────────────────────────────┴─────────────────────────────┘
 ```
@@ -169,14 +169,14 @@ unstructured code. You need a structured hierarchy:
 ┌─────────────────────────────────────────────────────────────┐
 │                 THE 3-TIER ADF HIERARCHY                    │
 ├─────────────────────────────────────────────────────────────┤
-│ 🌐 Tier 1: Canonical ADFs (Public Open Standards)           │
-│    • Universal Web Standards, A11y, OWASP Security          │
+│ Tier 1: Canonical ADFs (Public Open Standards)              │
+│   • Universal Web Standards, A11y, OWASP Security           │
 ├─────────────────────────────────────────────────────────────┤
-│ 🏢 Tier 2: Org Methodologies (Enterprise Governance)        │
-│    • Design Tokens, Auth Pipelines, Compliance Rules        │
+│ Tier 2: Org Methodologies (Enterprise Governance)           │
+│   • Design Tokens, Auth Pipelines, Compliance Rules         │
 ├─────────────────────────────────────────────────────────────┤
-│ 🎯 Tier 3: Application Blueprints (Domain Logic)            │
-│    • Specific feature schemas, local data models            │
+│ Tier 3: Application Blueprints (Domain Logic)               │
+│   • Specific feature schemas, local data models             │
 └─────────────────────────────────────────────────────────────┘
 ```
 
@@ -238,16 +238,16 @@ limitations.
 ┌─────────────────────────────────────────────────────────────┐
 │                    SUMMARY TAKEAWAYS                        │
 ├───────────────────────────────┬─────────────────────────────┤
-│ 💡 Human Bottlenecks          │ Frameworks solved human     │
+│ Human Bottlenecks             │ Frameworks solved human     │
 │                               │ typing limitations          │
 ├───────────────────────────────┼─────────────────────────────┤
-│ 🧠 Design-Time Shift          │ AI moves architectural      │
+│ Design-Time Shift             │ AI moves architectural      │
 │                               │ intelligence upstream       │
 ├───────────────────────────────┼─────────────────────────────┤
-│ 🚀 Zero-Dependency Native Code │ Mixture-of-Skills replaces  │
+│ Zero-Dependency Native Code   │ Mixture-of-Skills replaces  │
 │                               │ runtime bloat               │
 ├───────────────────────────────┼─────────────────────────────┤
-│ 🏛️ Long-Term Durability       │ Web standards live forever; │
+│ Long-Term Durability          │ Web standards live forever; │
 │                               │ framework trends fade       │
 └───────────────────────────────┴─────────────────────────────┘
 ```
