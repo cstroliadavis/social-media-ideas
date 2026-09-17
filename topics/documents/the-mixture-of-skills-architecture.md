@@ -48,6 +48,8 @@ channels:
 <!-- markdownlint-restore -->
 <!-- prettier-ignore-end -->
 
+![Manual vs. Automated Software Development: The Monolithic Kitchen vs. The Replicator](topics/media/images/manual-vs-automated-software-dev.jpeg)
+
 ---
 
 ## 🗺️ Topic Mind Map & Architectural Flow
@@ -238,13 +240,14 @@ hierarchical system of governed software methodologies:
 ### Lived Career War Stories
 
 - **[[topics/stories/the-snippet-era|The Snippet Era: Self-Written Code, Forums, and the Pre-NPM
-    Web]]**: Before external runtime packages existed, frontend developers wrote their own code,
-    shared evaluated snippets on early forums, and upheld the ironclad rule of reading and vetting
-    every line before taking local ownership.
+      Web]]**: Before external runtime packages existed, frontend developers wrote their own code,
+      shared evaluated snippets on early forums, and upheld the ironclad rule of reading and vetting
+      every line before taking local ownership.
 - **[[topics/stories/the-rise-of-frameworks|The Rise of Frameworks: Taming the Wild West of
-    Frontend Chaos]]**: As apps grew, the lack of architectural structure turned frontend onboarding
-    into an unbearable nightmare. Frameworks drew a line in the sand to enforce structure—solving a
-    human coordination problem that AI Development Frameworks (ADFs) now resolve at design time.
+      Frontend Chaos]]**: As apps grew, the lack of architectural structure turned frontend
+      onboarding into an unbearable nightmare. Frameworks drew a line in the sand to enforce
+      structure—solving a human coordination problem that AI Development Frameworks (ADFs) now
+      resolve at design time.
 - **The Enterprise Upgrade Nightmare**: Spending 6+ months migrating enterprise suites across
   breaking major framework versions (e.g., AngularJS to Angular 2+, or React class to hook
   paradigms), where 80% of developer hours were spent on framework churn rather than customer value.
@@ -280,7 +283,7 @@ hierarchical system of governed software methodologies:
 ### 🎙️ Deep-Dive Mock Interview Transcript
 
 - **Full Discussion**: [[topics/interviews/the-mixture-of-skills-architecture|The Pragmatic
-                    Architect Podcast: The Mixture-of-Skills Architecture]]
+                      Architect Podcast: The Mixture-of-Skills Architecture]]
 - **Key Debates Covered**:
   - _Design-Time vs. Build-Time Generation_ (Why CI/CD remains 100% deterministic).
   - _The Assembly Language Parallel_ (Historical transitions from low-level control to higher
