@@ -14,7 +14,7 @@ tags:
   - pragmatism
 themes:
   - '[[topics/themes/architecture|Architecture]]'
-  - '[[topics/themes/productivity|Productivity]]'
+  - '[[topics/themes/leadership-culture|Leadership & Culture]]'
 aliases:
   - 'Breaking the Iron Triangle: Practical Automation and the Triple-Win Formula'
   - 'The Triple-Win Formula: Faster, Cheaper, Higher Quality'

@@ -121,9 +121,7 @@ local-first, storing sensitive calendar ... | |
 [[topics/documents/agility-vs-scale\|Agility vs. Scale: Why Giant Corporations Cannot Pivot to Niche Demand]]
 | `TOP-092` | Future Economy & Manufacturing | Outlined | Corporate overhead and multi-layer
 management create institutional inertia, leav... | |
-[[topics/documents/the-contagion-of-transient-debt\|The Contagion of Transient Debt: Moving from One Broken Company to Another]]
-| `TOP-096` | Economics, Society & Ethics | Outlined | Because short-term executive churn is
-ubiquitous, engineers hopping between comp... |
+| [[topics/documents/breaking-the-iron-triangle-practical-automation\|Breaking the Iron Triangle: Practical Automation and the Triple-Win Formula]] | `TOP-102` | Pragmatic Architecture | Outlined | Proving that practical automation simultaneously optimizes Speed, Cost, and Quality, breaking the Iron Triangle myth. |
 <!-- markdownlint-restore -->
 <!-- prettier-ignore-end -->
 
