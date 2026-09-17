@@ -28,6 +28,8 @@ related_docs:
     Moving Beyond Monolithic Bundlers]]'
   - '[[topics/documents/the-story-spine-for-software-architecture|The Story Spine for Software
     Architecture]]'
+  - '[[topics/interviews/the-mixture-of-skills-architecture|Mock Podcast Interview: The
+    Mixture-of-Skills Architecture]]'
 channels:
   - medium
   - substack
@@ -163,6 +165,19 @@ Pre-built runtime packages remain essential for:
 > The Mixture-of-Skills architecture is the Master Craftsman's Tool Belt: a lean, light belt that
 > holds standard raw materials, while an apprentice fetches the exact precision chisel or jig from
 > the workshop wall only at the exact moment of the cut—and hangs it back up when done.
+
+### 🎙️ Deep-Dive Mock Interview Transcript
+
+- **Full Discussion**: [[topics/interviews/the-mixture-of-skills-architecture|The Pragmatic
+    Architect Podcast: The Mixture-of-Skills Architecture]]
+- **Key Debates Covered**:
+  - _Design-Time vs. Build-Time Generation_ (Why CI/CD remains 100% deterministic).
+  - _The Assembly Language Parallel_ (Historical transitions from low-level control to higher
+    abstractions).
+  - _Context-Aware Reachability vs. Dumb CVE Scanning_ (Why AST reachability eliminates alert
+    fatigue).
+  - _The Greenfield Wedge_ (Strangling legacy React/Vue monoliths using wrapped zero-dependency Web
+    Components).
 
 ---
 
