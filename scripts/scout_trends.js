@@ -25,14 +25,18 @@ const RSS_FEEDS = [
   { name: 'Reddit r/LocalLLaMA', url: 'https://www.reddit.com/r/LocalLLaMA/.rss', category: 'AI & Local Models' },
   { name: 'Reddit r/ChatGPTCoding', url: 'https://www.reddit.com/r/ChatGPTCoding/.rss', category: 'AI Practical Tooling' },
   { name: 'Reddit r/ADHD_Programmers', url: 'https://www.reddit.com/r/ADHD_Programmers/.rss', category: 'Neurodiversity & Productivity' },
-  { name: 'Reddit r/recruitinghell', url: 'https://www.reddit.com/r/recruitinghell/.rss', category: 'Job Search & Employment' }
+  { name: 'Reddit r/recruitinghell', url: 'https://www.reddit.com/r/recruitinghell/.rss', category: 'Job Search & Employment' },
+  { name: 'Reddit r/agile', url: 'https://www.reddit.com/r/agile/.rss', category: 'Agile & Team Dynamics' },
+  { name: 'Reddit r/remotework', url: 'https://www.reddit.com/r/remotework/.rss', category: 'Remote & Hybrid Culture' }
 ];
 
 const THEMATIC_KEYWORDS = {
   automation: ['automate', 'automation', 'macro', 'script', 'spreadsheet', 'excel', 'drudgery', 'workflow', 'manual', 'tedious', 'repetitive', 'efficiency'],
-  pragmaticAi: ['agent', 'local model', 'copilot', 'llm', 'rag', 'context', 'hallucination', 'developer tool', 'scaffolding'],
+  pragmaticAi: ['agent', 'local model', 'copilot', 'llm', 'rag', 'context', 'hallucination', 'developer tool', 'forward deployed', 'scaffolding'],
+  engineeringLeadership: ['staff engineer', 'principal engineer', 'engineering manager', 'tech lead', 'scrum master', 'product owner', 'cohesiveness', 'teamwork', 'morale', 'enjoyment', 'psychological safety', 'mentorship', 'onboarding', 'consultation'],
+  remoteAndCulture: ['remote', 'hybrid', 'rto', 'async', 'standup', 'meeting overload', 'communication', 'isolation', 'burnout', 'collaboration'],
   careerAndEconomy: ['layoff', 'job market', 'ats', 'interview', 'hiring', 'ghost job', 'recruiter', 'tenure', 'compensation', 'salary'],
-  polarizationMiddleGround: ['controversial', 'debate', 'remote work', 'rto', 'open source', 'monetization', 'zero-sum', 'compromise', 'middle ground', 'consensus']
+  polarizationMiddleGround: ['controversial', 'debate', 'open source', 'monetization', 'zero-sum', 'compromise', 'middle ground', 'consensus']
 };
 
 /**
