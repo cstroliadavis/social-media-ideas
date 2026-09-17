@@ -12,6 +12,7 @@
  * Output: Markdown summary with direct source links, core debate points, and Chris's unique angle.
  */
 
+import { execSync } from 'node:child_process';
 import { existsSync, mkdirSync, writeFileSync } from 'node:fs';
 import { join } from 'node:path';
 
@@ -154,6 +155,37 @@ points, career dynamics, and non-zero-sum debates.
 
   writeFileSync(outputFilePath, mdContent, 'utf-8');
   console.log(`📝 Scout report saved to: ${outputFilePath}`);
+
+  // Format with Prettier
+  try {
+    execSync(`npx prettier --write "${outputFilePath}"`, { stdio: 'inherit' });
+  } catch (fmtErr) {
+    console.warn(`⚠️ Prettier formatting warning: ${fmtErr.message}`);
+  }
+
+  // Automatically stage, commit, and push to Git
+  try {
+    console.log('🔄 Syncing daily scout report to Git...');
+    execSync(`git add "${outputFilePath}"`, { stdio: 'inherit' });
+    
+    // Check if there are staged changes
+    const status = execSync('git status --porcelain', { encoding: 'utf-8' });
+    if (status.includes(`topics/scouts/scout-${today}.md`)) {
+      const commitMsg = `feat(scout): add daily trend scout report for ${today}
+
+- Scanned RSS feeds across tech, AI, career, and productivity communities
+- Identified and scored high-resonance leads
+- Generated raw leads and preliminary angles under topics/scouts/scout-${today}.md`;
+
+      execSync(`git commit -m "${commitMsg.replace(/"/g, '\\"')}"`, { stdio: 'inherit' });
+      execSync('git push', { stdio: 'inherit' });
+      console.log('✅ Daily scout report successfully committed and pushed to GitHub.');
+    } else {
+      console.log('ℹ️ No new changes to commit for daily scout.');
+    }
+  } catch (gitErr) {
+    console.error(`❌ Git sync failed: ${gitErr.message}`);
+  }
 }
 
 runScout();
