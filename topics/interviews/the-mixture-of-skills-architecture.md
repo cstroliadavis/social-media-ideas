@@ -5,11 +5,15 @@ topic_id: TOP-021
 topic_ref:
   '[[topics/documents/the-mixture-of-skills-architecture|The Mixture-of-Skills (MoS) Architecture:
   Dynamic Agent Specialization]]'
-show: 'The Pragmatic Architect Podcast'
+interview_type: mock
+format: synthetic-podcast-transcript
+host: 'Gemini (acting as Adept AI & Software Engineering Podcast Host)'
 guest: 'Chris Strolia-Davis, Senior Systems Architect'
 created: 2026-09-17
 tags:
   - interview
+  - mock-interview
+  - synthetic
   - transcript
   - podcast
   - mos
@@ -19,8 +23,13 @@ tags:
 
 # 🎙️ Transcript: The Mixture-of-Skills (MoS) Architecture
 
-- **Show**: _The Pragmatic Architect Podcast_
-- **Host**: Adept AI & Software Engineering Host
+> [!NOTE] **Mock Interview Notice**: This is a simulated discussion generated with Gemini acting in
+> the role of a technical podcast host (_The Pragmatic Architect Podcast_) to stress-test
+> architectural ideas, steel-man counter-arguments, and explore real-world engineering trade-offs
+> with Chris Strolia-Davis.
+
+- **Show**: _The Pragmatic Architect Podcast_ (Simulated)
+- **Host**: Gemini (Roleplaying Adept AI & Software Engineering Podcast Host)
 - **Guest**: Chris Strolia-Davis, Senior Systems Architect
 - **Topic**: The Mixture-of-Skills (MoS) Architecture: Dynamic Agent Specialization (_The
   Zero-Dependency & Zero-Framework Web, Part 5_)
