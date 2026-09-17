@@ -238,13 +238,13 @@ hierarchical system of governed software methodologies:
 ### Lived Career War Stories
 
 - **[[topics/stories/the-snippet-era|The Snippet Era: Self-Written Code, Forums, and the Pre-NPM
-  Web]]**: Before external runtime packages existed, frontend developers wrote their own code,
-  shared evaluated snippets on early forums, and upheld the ironclad rule of reading and vetting
-  every line before taking local ownership.
+    Web]]**: Before external runtime packages existed, frontend developers wrote their own code,
+    shared evaluated snippets on early forums, and upheld the ironclad rule of reading and vetting
+    every line before taking local ownership.
 - **[[topics/stories/the-rise-of-frameworks|The Rise of Frameworks: Taming the Wild West of
-  Frontend Chaos]]**: As apps grew, the lack of architectural structure turned frontend onboarding
-  into an unbearable nightmare. Frameworks drew a line in the sand to enforce structure—solving a
-  human coordination problem that AI Development Frameworks (ADFs) now resolve at design time.
+    Frontend Chaos]]**: As apps grew, the lack of architectural structure turned frontend onboarding
+    into an unbearable nightmare. Frameworks drew a line in the sand to enforce structure—solving a
+    human coordination problem that AI Development Frameworks (ADFs) now resolve at design time.
 - **The Enterprise Upgrade Nightmare**: Spending 6+ months migrating enterprise suites across
   breaking major framework versions (e.g., AngularJS to Angular 2+, or React class to hook
   paradigms), where 80% of developer hours were spent on framework churn rather than customer value.
@@ -280,7 +280,7 @@ hierarchical system of governed software methodologies:
 ### 🎙️ Deep-Dive Mock Interview Transcript
 
 - **Full Discussion**: [[topics/interviews/the-mixture-of-skills-architecture|The Pragmatic
-                  Architect Podcast: The Mixture-of-Skills Architecture]]
+                    Architect Podcast: The Mixture-of-Skills Architecture]]
 - **Key Debates Covered**:
   - _Design-Time vs. Build-Time Generation_ (Why CI/CD remains 100% deterministic).
   - _The Assembly Language Parallel_ (Historical transitions from low-level control to higher
@@ -353,3 +353,88 @@ hierarchical system of governed software methodologies:
   meal (500MB `node_modules` vs. a lean 5KB native script).
 - **Visual Walkthrough**: Interactive demo showing an AI agent loading a security skill, generating
   a zero-dependency native Web Component, and passing strict automated lints.
+
+---
+
+## 5. Visual Assets & Image Generation Prompts
+
+### 🎨 Medium / Substack Hero Banner (16:9 Landscape)
+
+> **Concept**: Side-by-side cartoon comparing traditional overloaded kitchen preparation vs. sleek,
+> instantaneous sci-fi matter replication.
+
+- **Aspect Ratio**: `16:9`
+- **Style**: Modern, clean editorial vector illustration / tech cartoon with rich colors, subtle
+  isometric depth, and clean linework.
+- **Prompt**:
+
+  ```text
+  A split-screen editorial cartoon illustration comparing traditional software engineering to
+  futuristic AI development.
+
+  LEFT SIDE ("The Monolith / Framework Overload"): A chaotic, cluttered traditional kitchen with a
+  stressed chef developer standing in front of an overflowing grocery cart packed with giant 3-pound
+  bulk steak packs, oversized sacks of rice, dozens of dented canned beans stacked precariously to
+  the ceiling, and five burners smoking on the stove with heavy pots just to prepare a single small
+  plate. Cluttered, warm orange/amber tones, warning labels, and messy dependency wires on the
+  floor.
+
+  RIGHT SIDE ("The Mixture-of-Skills / Star Trek Replicator"): A pristine, minimalist, sleek sci-fi
+  room in cool slate blue, electric cyan, and clean white. A glowing futuristic wall-mounted matter
+  replicator chamber with a high-tech glowing interface. Inside the chamber, an immaculate,
+  perfectly cooked steak dinner on a minimalist white ceramic plate materializes out of clean
+  crystalline light particles with zero mess, no leftover cans, and no extra clutter.
+
+  The boundary between both sides is a sharp, glowing vertical laser divide. Polished tech editorial
+  magazine style, high contrast, vibrant vector art.
+  ```
+
+---
+
+### 📊 LinkedIn / Social Carousel Slide 1: The Metaphor Card (1:1 Square)
+
+> **Concept**: Square graphic optimized for mobile feeds contrasting "The Grocery Cart Tax" with
+> "The On-Demand Replicator".
+
+- **Aspect Ratio**: `1:1`
+- **Style**: Minimalist isometric infographic with bold visual metaphors and clean modern UI badges.
+- **Prompt**:
+
+  ```text
+  Square tech infographic illustration on a dark slate-gray background (#0f172a).
+
+  On the left side: A massive overflowing metal grocery shopping cart loaded with heavy 500MB
+  dependency crates, tangled wires, and redundant bulk packaging labeled 'node_modules'. Subdued
+  amber and rust-orange accent lighting.
+
+  On the right side: A glowing, futuristic cyan and violet holographic crystalline replicator pod
+  synthesizing a single lightweight, glowing diamond chip labeled '5KB Native Skill'.
+
+  Centered in between: A clean minimalist neon glowing arrow transitioning from left to right.
+  Ultra-clean typography placeholders, dark mode aesthetic, modern SaaS design system look.
+  ```
+
+---
+
+### 🧵 Twitter/X & BlueSky Concept Visual (16:9 Landscape)
+
+> **Concept**: The 3-Tier AI Development Framework (ADF) pipeline flowing from Public Standard Rules
+> to Application Code.
+
+- **Aspect Ratio**: `16:9`
+- **Style**: Sleek architectural blueprint / technical concept diagram with glowing neon traces.
+- **Prompt**:
+
+  ```text
+  A sleek, dark-mode architectural diagram illustrating 'Mixture-of-Skills (MoS) Pipeline'.
+
+  Three floating layered holographic glass cards arranged from left to right on a deep navy grid:
+  1. Left card: 'Canonical ADF (Global Skills)' - glowing blue neural node network.
+  2. Center card: 'Org Methodology (Custom Rules & Linters)' - glowing purple security shield and
+     governance gear.
+  3. Right card: 'Zero-Dependency Native App (Web Standards)' - glowing emerald green crystal-clear
+     lightweight structure.
+
+  Dynamic laser data streams flowing horizontally connecting the layers. Premium developer tools
+  branding style, glassmorphism, subtle lens flare, ultra-high resolution.
+  ```
