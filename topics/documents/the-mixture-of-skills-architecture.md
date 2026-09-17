@@ -98,8 +98,9 @@ graph TD
 ### Core Insight & Thesis
 
 > **We used runtime frameworks because human typing and boilerplate was our historical bottleneck;
-> in an AI-native world, we do not need runtime bloat—we need composable AI Skill Packages (ADFs)
-> and context engines that generate clean, zero-dependency code directly against web standards.**
+> in an AI-native world, we do not need runtime bloat—we need composable AI Development Frameworks
+> (ADFs) and context engines that generate clean, zero-dependency code directly against web
+> standards.**
 
 Frameworks and heavy 3rd-party libraries were created to give human developers shortcuts: pre-baked
 state machines, routing harnesses, and UI components. But they came with a massive tax:
@@ -113,9 +114,43 @@ state machines, routing harnesses, and UI components. But they came with a massi
    rewrites, breaking changes, and contagious adapter layers.
 
 With modern AI agents, the bottleneck is inverted. The AI writes code at machine speed. By feeding
-the agent specialized **AI Development Frameworks (ADFs)**—structured domain rules, security
-blueprints, and performance patterns—the agent generates tailored, native code that has zero runtime
-dependency footprint.
+the agent specialized **AI Development Frameworks (ADFs)**—the next-generation successor to the
+traditional Software Development Life Cycle (SDLC), encompassing everything from scaffolding and
+linting to coding conventions, testing harnesses, and build/CI orchestration—the agent generates
+tailored, native code that has zero runtime dependency footprint.
+
+---
+
+### The Canonical ADF vs. Enterprise Methodology Hierarchy
+
+An AI Development Framework (ADF) operates not as a monolithic runtime library, but as a
+hierarchical system of governed software methodologies:
+
+```text
+┌─────────────────────────────────────────────────────────────┐
+│              1. Canonical ADF (Public Standard)             │
+│   (Upstream source of truth, best practices & core skills)  │
+└──────────────────────────────┬──────────────────────────────┘
+                               │ inherits & refines
+                               ▼
+┌─────────────────────────────────────────────────────────────┐
+│          2. Enterprise / Org Methodology (Team Tier)        │
+│    (Company architecture, security gates, design tokens)    │
+└──────────────────────────────┬──────────────────────────────┘
+                               │ inherits & customizes
+                               ▼
+┌─────────────────────────────────────────────────────────────┐
+│           3. Application / Workspace Blueprint (Leaf)       │
+│    (Local domain logic, bespoke state, local test suites)   │
+└─────────────────────────────────────────────────────────────┘
+```
+
+1. **The Canonical ADF**: The upstream, community-maintained source of truth defining how an AI
+   understands a domain (e.g. security audits, semantic web components, SQLite WASM data layers).
+2. **Company / Team Methodologies**: Organizations fork or inherit from canonical ADFs to codify
+   their internal standards, architectural constraints, security policies, and brand design tokens.
+3. **Application Blueprints**: Individual projects apply these methodologies to write lean, bespoke
+   code without ever dragging the framework down to the user's browser runtime.
 
 ---
 
@@ -133,7 +168,7 @@ dependency footprint.
 
 - **Traditional NPM Upgrades**: Bumping a version is an all-or-nothing gamble that touches
   production code immediately, demanding extensive regression testing and risking breaking changes.
-- **MoS Skill Upgrades**: Updating an ADF skill package modifies **zero lines of production code**.
+- **MoS / ADF Upgrades**: Updating an ADF skill package modifies **zero lines of production code**.
   It simply upgrades the intelligence of the assistant auditing the repository. The assistant
   identifies improvements as opt-in code suggestions rather than forced breaking changes.
 
@@ -222,7 +257,7 @@ dependency footprint.
 ### 🎙️ Deep-Dive Mock Interview Transcript
 
 - **Full Discussion**: [[topics/interviews/the-mixture-of-skills-architecture|The Pragmatic
-    Architect Podcast: The Mixture-of-Skills Architecture]]
+      Architect Podcast: The Mixture-of-Skills Architecture]]
 - **Key Debates Covered**:
   - _Design-Time vs. Build-Time Generation_ (Why CI/CD remains 100% deterministic).
   - _The Assembly Language Parallel_ (Historical transitions from low-level control to higher
