@@ -1,8 +1,9 @@
 {
   "name": "social-media-ideas",
   "version": "1.0.0",
-  "description": "Connected knowledge graph, mind maps, and multi-channel publication pipelines for Chris Strolia-Davis.",
+  "type": "module",
   "scripts": {
+    "scout": "node scripts/scout_trends.js",
     "lint": "markdownlint-cli2",
     "lint:fix": "markdownlint-cli2 --fix && prettier --write \"**/*.md\" --ignore-path .gitignore",
     "format": "prettier --write \"**/*.md\" --ignore-path .gitignore",
