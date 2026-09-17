@@ -78,9 +78,9 @@ When presenting brainstormed topics to Chris, structure each suggestion into one
 
 ---
 
-## 🔄 Handoff to Deep-Dive
+## 🔄 Handoff & Skill Collaboration
 
-Once Chris selects an idea from the brainstorm:
-1. Automatically transition into the `topic-deep-dive` skill to flesh out lived stories, devil's advocate arguments, and multi-channel hooks.
-2. Save the final outline to `topics/documents/<slug>.md` and update `topics/themes/` and `topics/themes.md`.
-3. Auto-commit and push to Git.
+When using `trend-research`:
+1. **Jumpstart Brainstorming**: Hand off trending discoveries directly to `topic-brainstorm` for a focused grill-me session to extract Chris's unique angle and generate an initial stub.
+2. **Immediate Elaboration**: If Chris already has a crystal-clear take, transition directly into `topic-deep-dive` to construct the full knowledge vault and multi-channel publication strategy.
+3. **Vault Registration & Git Sync**: Register any new stubs or vaults in `topics/themes/` and auto-commit to Git.

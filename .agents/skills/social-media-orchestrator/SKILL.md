@@ -22,16 +22,19 @@ This skill coordinates social media strategy, trend research, concept ideation, 
 ## 2. Integrated Content Workflow
 
 ```text
-[ Phase 1: Trend Discovery & Brainstorming (trend-research) ]
+[ Phase 1: Trend Discovery (trend-research) ]
        │  (Scan Reddit, Quora, Substack, Medium, HN for hot debates & pain points)
        ▼
-[ Phase 2: Topic Deep-Dive & Stress-Testing (topic-deep-dive) ]
+[ Phase 2: Topic Brainstorming & Stub Creation (topic-brainstorm) ]
+       │  (Grill-me on novelty, extract Chris's unique angle, generate initial topic stub)
+       ▼
+[ Phase 3: Topic Deep-Dive & Stress-Testing (topic-deep-dive) ]
        │  (Flesh out metaphors, lived stories, devil's advocate, ethical hooks & image ideas)
        ▼
-[ Phase 3: Vault Structuring & Mind-Mapping ]
+[ Phase 4: Vault Structuring & Mind-Mapping ]
        │  (Save to topics/documents/ with YAML properties, themes, and mind maps)
        ▼
-[ Phase 4: Content Drafting (chris-voice) ]
+[ Phase 5: Content Drafting (chris-voice) ]
           (Invoke chris-voice strictly for final copy upon explicit request)
 ```
 
@@ -42,7 +45,7 @@ This skill coordinates social media strategy, trend research, concept ideation, 
 | User Request | Active Skill & Mode |
 | :--- | :--- |
 | *"Find trending topics on Reddit/Substack"*, *"What are people debating in JavaScript?"* | `trend-research` (Phase 1: Trend & Opinion Scanning) |
-| *"Let's brainstorm 3 ideas on X"* | `social-media-orchestrator` / `trend-research` |
-| *"Help me flesh out this topic / grill me on this idea"* | `topic-deep-dive` (Phase 2: Deep-Dive & Devil's Advocate) |
-| *"Update the themes / mind maps / calendar for this topic"* | `auto-git-sync` & Vault Structuring (Phase 3) |
-| *"Draft this essay / write this in my voice"* | `chris-voice` (Phase 4: Authentic Post Copy) |
+| *"I have an idea for a topic, let's brainstorm it / create a stub"* | `topic-brainstorm` (Phase 2: Novelty & Stub Creation) |
+| *"Help me flesh out this topic / grill me on this idea"* | `topic-deep-dive` (Phase 3: Deep-Dive & Devil's Advocate) |
+| *"Update the themes / mind maps / calendar for this topic"* | `auto-git-sync` & Vault Structuring (Phase 4) |
+| *"Draft this essay / write this in my voice"* | `chris-voice` (Phase 5: Authentic Post Copy) |
