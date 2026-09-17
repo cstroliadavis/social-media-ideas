@@ -11,7 +11,7 @@ tags:
 # Master Theme Mind Map & Topic Graph
 
 This document serves as the high-level semantic knowledge graph connecting every overarching
-**Theme** to its underlying deep-dive **Document Vaults**.
+**Theme** to its underlying deep-dive **Document Vaults** and **Multi-Part Series**.
 
 ---
 
@@ -19,19 +19,29 @@ This document serves as the high-level semantic knowledge graph connecting every
 
 ```mermaid
 graph TB
-    subgraph TECH["💻 Software Engineering & Architecture"]
+    subgraph TECH["💻 Software Engineering, AI & Architecture"]
         JS["[[topics/themes/javascript|JavaScript & Web Runtimes]]"]
         TS["[[topics/themes/typescript|TypeScript & Types]]"]
         SQL["[[topics/themes/sql|SQL & Data Systems]]"]
         STANDARDS["[[topics/themes/coding-standards|Coding Standards & Craft]]"]
         ARCH["[[topics/themes/architecture|Pragmatic Architecture]]"]
+        AIENG["[[topics/themes/ai-engineering|AI Engineering & Tooling]]"]
     end
 
-    subgraph LEAD["🏢 Org Culture & Leadership"]
+    subgraph CAREER["🏢 Culture, Leadership & Careers"]
         CULTURE["[[topics/themes/leadership-culture|Org Culture & Leadership]]"]
+        CAREERNAV["[[topics/themes/career-hiring|Career & Tech Hiring Realities]]"]
+        COMM["[[topics/themes/storytelling-communication|Storytelling & Communication]]"]
     end
 
-    subgraph LIFE["🌱 Relationships & Spirituality"]
+    subgraph SOCIETY["🌐 Economics, Ethics & Society"]
+        CONSUMER["[[topics/themes/consumer-advocacy|Consumer Advocacy & Transparency]]"]
+        ECON["[[topics/themes/future-economy|Future Economy & Manufacturing]]"]
+        ETHICS["[[topics/themes/ethics-technology|Technology Ethics & Stewardship]]"]
+    end
+
+    subgraph MIND["🌱 Neurodiversity, Relationships & Virtue"]
+        ADHD["[[topics/themes/neurodiversity-adhd|Neurodiversity & ADHD Systems]]"]
         REL["[[topics/themes/relationships-solitude|Relationships & Solitude]]"]
         VIRTUE["[[topics/themes/virtue-mindset|Virtue, Mindset & Spirituality]]"]
     end
@@ -42,22 +52,37 @@ graph TB
     JS --- ARCH
     SQL --- ARCH
     STANDARDS --- ARCH
+    ARCH --- AIENG
     ARCH --- CULTURE
+    CULTURE --- CAREERNAV
+    CULTURE --- COMM
+    AIENG --- ETHICS
+    CONSUMER --- ECON
+    ECON --- ETHICS
+    ADHD --- ARCH
     CULTURE --- VIRTUE
     REL --- VIRTUE
+    ETHICS --- VIRTUE
 ```
 
 ---
 
-## 📚 Themes Directory & Document Allocations
+## 📚 Master Themes Directory
 
-| Theme                                                                  | Key Concepts Covered                                                        | Primary Document Vaults                                                                                                                                                                                                                                                                                                                                                                    |
-| :--------------------------------------------------------------------- | :-------------------------------------------------------------------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **[[topics/themes/javascript\|JavaScript & Web Runtimes]]**            | Execution context, `this` binding, Web APIs, ecosystem fatigue              | [[topics/documents/what-the-heck-is-this\|what-the-heck-is-this.md]], [[topics/documents/cure-for-framework-fatigue\|cure-for-framework-fatigue.md]], [[topics/documents/stop-blindly-following-patterns\|stop-blindly-following-patterns.md]], [[topics/documents/the-myth-of-specialization\|the-myth-of-specialization.md]]                                                             |
-| **[[topics/themes/typescript\|TypeScript & Type Systems]]**            | Static verification, test-driven architecture, avoiding type gymnastics     | [[topics/documents/why-tdd-matters\|why-tdd-matters.md]], [[topics/documents/stop-blindly-following-patterns\|stop-blindly-following-patterns.md]], [[topics/documents/cure-for-framework-fatigue\|cure-for-framework-fatigue.md]]                                                                                                                                                         |
-| **[[topics/themes/sql\|SQL & Data Systems]]**                          | Relational integrity, data modeling, query optimization, full-stack reality | [[topics/documents/the-myth-of-specialization\|the-myth-of-specialization.md]], [[topics/documents/stop-blindly-following-patterns\|stop-blindly-following-patterns.md]], [[topics/documents/the-500-dollar-aspirin\|the-500-dollar-aspirin.md]]                                                                                                                                           |
-| **[[topics/themes/coding-standards\|Coding Standards & Craft]]**       | Clean code pragmatism, testing discipline, tech debt reality                | [[topics/documents/stop-blindly-following-patterns\|stop-blindly-following-patterns.md]], [[topics/documents/the-500-dollar-aspirin\|the-500-dollar-aspirin.md]], [[topics/documents/why-tdd-matters\|why-tdd-matters.md]], [[topics/documents/the-fast-food-fallacy\|the-fast-food-fallacy.md]], [[topics/documents/why-devs-dont-get-budgets\|why-devs-dont-get-budgets.md]]             |
-| **[[topics/themes/architecture\|Pragmatic Architecture]]**             | Anti-complexity, right-sizing solutions, durable abstractions               | [[topics/documents/the-500-dollar-aspirin\|the-500-dollar-aspirin.md]], [[topics/documents/cure-for-framework-fatigue\|cure-for-framework-fatigue.md]], [[topics/documents/stop-blindly-following-patterns\|stop-blindly-following-patterns.md]], [[topics/documents/the-myth-of-specialization\|the-myth-of-specialization.md]], [[topics/documents/why-tdd-matters\|why-tdd-matters.md]] |
-| **[[topics/themes/leadership-culture\|Org Culture & Leadership]]**     | Tech debt ROI, charisma vs competence, tenure traps, fast delivery myths    | [[topics/documents/why-devs-dont-get-budgets\|why-devs-dont-get-budgets.md]], [[topics/documents/the-500-dollar-aspirin\|the-500-dollar-aspirin.md]], [[topics/documents/the-charisma-trap\|the-charisma-trap.md]], [[topics/documents/the-loyalty-trap\|the-loyalty-trap.md]], [[topics/documents/the-fast-food-fallacy\|the-fast-food-fallacy.md]]                                       |
-| **[[topics/themes/relationships-solitude\|Relationships & Solitude]]** | Introversion, peaceful solitude vs isolation, proactive therapy             | [[topics/documents/alone-but-not-lonely\|alone-but-not-lonely.md]], [[topics/documents/therapy-preventive-maintenance\|therapy-preventive-maintenance.md]], [[topics/documents/understanding-vs-feeling-love\|understanding-vs-feeling-love.md]]                                                                                                                                           |
-| **[[topics/themes/virtue-mindset\|Virtue, Mindset & Spirituality]]**   | True humility, self-forgetfulness, covenantal love, ego-checking            | [[topics/documents/humility-is-not-low-self-esteem\|humility-is-not-low-self-esteem.md]], [[topics/documents/understanding-vs-feeling-love\|understanding-vs-feeling-love.md]], [[topics/documents/the-charisma-trap\|the-charisma-trap.md]]                                                                                                                                               |
+| Theme                                                                          | Category                 | Focus Area                                                                                |
+| :----------------------------------------------------------------------------- | :----------------------- | :---------------------------------------------------------------------------------------- |
+| **[[topics/themes/architecture\|Pragmatic Architecture]]**                     | Architecture & Design    | Anti-complexity, right-sizing, durable abstractions, zero-dependency engineering          |
+| **[[topics/themes/ai-engineering\|AI Engineering & Tooling]]**                 | AI & Systems             | AI skills package management, bug telemetry, guardrail benchmarking, prompt orchestration |
+| **[[topics/themes/javascript\|JavaScript & Web Runtimes]]**                    | Languages & Runtimes     | Web Standards, Web Components, CSS Grid, runtime mechanics, framework fatigue             |
+| **[[topics/themes/typescript\|TypeScript & Type Systems]]**                    | Languages & Verification | Static verification, test-driven architecture, avoiding type gymnastics                   |
+| **[[topics/themes/sql\|SQL & Data Systems]]**                                  | Data & State             | Relational integrity, data modeling, query optimization, local SQLite caching             |
+| **[[topics/themes/coding-standards\|Coding Standards & Craft]]**               | Engineering Craft        | Clean code pragmatism, testing discipline, dead code pruning, automated feature sunsets   |
+| **[[topics/themes/leadership-culture\|Org Culture & Leadership]]**             | Culture & Leadership     | Consultation vs debate, servant leadership, psychological safety, blameless reviews       |
+| **[[topics/themes/career-hiring\|Career & Tech Hiring Realities]]**            | Career Navigation        | 2026 job market, ghost jobs, AI resume arms race, proof-of-work, fractional roles         |
+| **[[topics/themes/storytelling-communication\|Storytelling & Communication]]** | Communication & Craft    | Non-captive audiences, curse of knowledge, tactile metaphors, non-clickbait hooks         |
+| **[[topics/themes/neurodiversity-adhd\|Neurodiversity & ADHD Systems]]**       | Mindset & Systems        | Hyperfocus, working memory scaffolding, anti-nag time tracking, Obsidian second brains    |
+| **[[topics/themes/consumer-advocacy\|Consumer Advocacy & Transparency]]**      | Consumer Advocacy        | Anti-surveillance dynamic pricing, crowdsourced telemetry, coordinated consumer action    |
+| **[[topics/themes/future-economy\|Future Economy & Manufacturing]]**           | Future Economy           | Sunset of mass production, micro-scale precision, 3D printing, post-labor economics       |
+| **[[topics/themes/ethics-technology\|Technology Ethics & Stewardship]]**       | Ethics & Society         | Evolution beyond extractive capitalism, executive tenure traps, Bahá'í stewardship        |
+| **[[topics/themes/relationships-solitude\|Relationships & Solitude]]**         | Personal Growth          | Peaceful solitude vs isolation, preventive therapy, two-selves remote boundaries          |
+| **[[topics/themes/virtue-mindset\|Virtue, Mindset & Spirituality]]**           | Philosophy & Virtue      | True humility, self-forgetfulness, covenantal love, ego-checking, purpose                 |

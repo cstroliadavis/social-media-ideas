@@ -89,9 +89,10 @@ archaic tooling—all to "save" a few thousand dollars in explicit software line
 
 ### Personal Anecdotes
 
-- Watching a company stall a $2,000 CI upgrade for 6 months while 20 developers sat idle
-  for 45 minutes every morning waiting for slow monolithic builds to compile ($30,000+ in wasted
-  payroll per month).
+- Watching a company stall a
+  $2,000 CI upgrade for 6 months while 20 developers sat idle
+  for 45 minutes every morning waiting for slow monolithic builds to compile ($30,000+
+  in wasted payroll per month).
 - Successfully unlocking budgets by pitching tooling upgrades in terms of developer retention and
   reduced Mean Time to Recovery (MTTR).
 
@@ -115,9 +116,10 @@ archaic tooling—all to "save" a few thousand dollars in explicit software line
 
 ### BlueSky (Thread)
 
-- **Hook**: "Companies will spend $200,000/year on a senior engineer and then force them to
-  waste 5 hours a week waiting on a slow CI build to save $100/month on cloud runners. Here is
-  why the tech budget paradox exists: 🧵"
+- **Hook**: "Companies will spend
+  $200,000/year on a senior engineer and then force them to
+  waste 5 hours a week waiting on a slow CI build to save $100/month
+  on cloud runners. Here is why the tech budget paradox exists: 🧵"
 
 ---
 
